@@ -75,7 +75,7 @@
 .nar-1:hover, .nar-2:hover, .nar-3:hover, .nar-4:hover {background: var(--sei)}
 /*Solmara*/
 #f65073568 {position: relative; height: 165px; z-index: 9; border: 10px solid var(--cinque)}
-#f65073568::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8; background-image: url('https://upload.forumfree.net/i/ff13982804/Hunter/sez/Solmara.gif'); background-repeat: no-repeat; background-size: cover}
+#f65073568::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8;  background-repeat: no-repeat; background-size: cover}
 .sol-button {display:flex; gap: 3px; align-items: center; flex-wrap: wrap; opacity: 0; font-size: 11px}
 #c65073567 .big_list >:hover .sol-button {opacity: 1}
 .sol-button a {flex: 1 1 45%; color:var(--otto)}
@@ -83,7 +83,7 @@
 .sol-1:hover, .sol-2:hover, .sol-3:hover {background: var(--sei)}
 /*Yorbian*/
 #f65073569 {position: relative; height: 165px; z-index: 9; border: 10px solid var(--cinque)}
-#f65073569::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8; background-image: url('https://upload.forumfree.net/i/ff13982804/Hunter/sez/Yorbian.gif'); background-repeat: no-repeat; background-size: cover}
+#f65073569::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8;  background-repeat: no-repeat; background-size: cover}
 .yor-button {display:flex; gap: 3px; align-items: center; flex-wrap: wrap; opacity: 0; font-size: 11px}
 #c65073567 .big_list >:hover .yor-button {opacity: 1}
 .yor-button a {flex: 1 1 45%; color:var(--otto)}
@@ -91,7 +91,7 @@
 .yor-1:hover, .yor-2:hover, .yor-3:hover, .yor-4:hover {background: var(--sei)}
 /*Azia*/
 #f65114231 {position: relative; height: 165px; z-index: 9; border: 10px solid var(--cinque)}
-#f65114231::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8; background-image: url('https://upload.forumfree.net/i/ff13982804/Hunter/sez/Azia.gif'); background-repeat: no-repeat; background-size: cover}
+#f65114231::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8; background-repeat: no-repeat; background-size: cover}
 .azi-button {display:flex; gap: 3px; align-items: center; flex-wrap: wrap; opacity: 0; font-size: 11px}
 #c65073567 .big_list >:hover .azi-button {opacity: 1}
 .azi-button a {flex: 1 1 45%; color:var(--otto)}
@@ -99,7 +99,7 @@
 .azi-1:hover, .azi-2:hover, .azi-3:hover {background: var(--sei)}
 /*Keth'ra*/
 #f65114232 {position: relative; height: 165px; z-index: 9; border: 10px solid var(--cinque)}
-#f65114232::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8; background-image: url('https://upload.forumfree.net/i/ff13982804/Hunter/sez/Kethra.gif'); background-repeat: no-repeat; background-size: cover}
+#f65114232::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8;  background-repeat: no-repeat; background-size: cover}
 .ket-button {display:flex; gap: 3px; align-items: center; flex-wrap: wrap; opacity: 0; font-size: 11px}
 #c65073567 .big_list >:hover .ket-button {opacity: 1}
 .ket-button a {flex: 1 1 90%; color:var(--otto)}
@@ -107,7 +107,7 @@
 .ket-1:hover, .ket-2:hover {background: var(--sei)}
 /*Vandros*/
 #f65114233 {position: relative; height: 165px; z-index: 9; border: 10px solid var(--cinque)}
-#f65114233::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8; background-image: url('https://upload.forumfree.net/i/ff13982804/Hunter/sez/Vandros.gif'); background-repeat: no-repeat; background-size: cover}
+#f65114233::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8;  background-repeat: no-repeat; background-size: cover}
 .van-button {display:flex; gap: 3px; align-items: center; flex-wrap: wrap; opacity: 0; font-size: 11px}
 #c65073567 .big_list >:hover .van-button {opacity: 1}
 .van-button a {flex: 1 1 90%; color:var(--otto)}
@@ -138,14 +138,14 @@
 #f65114234 .when, #f65114235 .when, #f65114237 .when {order: 3}
 #f65114234 .when, #f65114235 .when, #f65114237 .when {display:flex; color:var(--otto); font-weight:bold} #f65114234 .when::before, #f65114235 .when::before, #f65114237 .when::before {content:'del'; margin-right: 3px; color:var(--uno); font-weight:normal}
 #f65114234 {position: relative; height: 100px; z-index: 9; border: 10px solid var(--cinque)}
-#f65114234::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8; background-image: url('https://upload.forumfree.net/i/ff13982804/Hunter/sez/Citt-delle-Stelle-Cadenti.gif'); background-repeat: no-repeat; background-size: cover}
+#f65114234::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8;background-repeat: no-repeat; background-size: cover}
 /*Greed Island*/
 #f65114235 {position: relative; height: 100px; z-index: 9; border: 10px solid var(--cinque)}
-#f65114235::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8; background-image: url('https://upload.forumfree.net/i/ff13982804/Hunter/sez/Greed-Island.gif'); background-repeat: no-repeat; background-size: cover}
+#f65114235::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8;  background-repeat: no-repeat; background-size: cover}
 /*Torre Celeste*/
 #f65114236 .web a {margin-top: 60px; display: block; font-family: var(--sottotit); font-size: 2.08vw; transition: all 1400ms cubic-bezier(0.250, 0.100, 0.250, 1.000); text-align:center; opacity:.3; color:var(--bianco); vertical-align:middle; height: 50px; background:var(--nero)}
 #f65114236 {position: relative; height: 204px; z-index: 9; border: 10px solid var(--cinque)}
-#f65114236::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8; background-image: url('https://upload.forumfree.net/i/ff13982804/Hunter/sez/Torre-Celeste.gif'); background-repeat: no-repeat; background-size: cover}
+#f65114236::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8;  background-repeat: no-repeat; background-size: cover}
 .tor-button {display:flex; gap: 3px; align-items: center; flex-wrap: wrap; opacity: 0; font-size: 11px}
 #c65114234 .big_list >:hover .tor-button {opacity: 1}
 .tor-button a {flex: 1 1 90%; color:var(--otto)}
@@ -154,10 +154,10 @@
 /*Sito degli Hunter*/
 #f65114237 .web a, #f65114238 .web a {margin-top: 10px; display: block; font-family: var(--sottotit); font-size: 2.08vw; transition: all 1400ms cubic-bezier(0.250, 0.100, 0.250, 1.000); text-align:center; opacity:.3; color:var(--bianco); vertical-align:middle; height: 50px; background:var(--nero)}
 #f65114237 {position: relative; height: 100px; z-index: 9; border: 10px solid var(--cinque)}
-#f65114237::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8; background-image: url('https://upload.forumfree.net/i/ff13982804/Hunter/sez/Sito-degli-Hunter.gif'); background-repeat: no-repeat; background-size: cover}
+#f65114237::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8; background-repeat: no-repeat; background-size: cover}
 /*Hunternet*/
 #f65114238 {padding: 0; position: relative; height: 100px; z-index: 9; border: 10px solid var(--cinque)}
-#f65114238::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8; background-image: url('https://upload.forumfree.net/i/ff13982804/Hunter/sez/Hunternet.gif'); background-repeat: no-repeat; background-size: cover}
+#f65114238::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8; background-repeat: no-repeat; background-size: cover}
 #f65114238 .zz {display:none!important}
 /*Sezioni GDR Extra*/
 #c65073571 .mback {margin-bottom: -4px} #c65073571 {background:var(--sette)} #c65073571 .mtitle {font-family:var(--sottotit); font-size: 16px}
