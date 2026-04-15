@@ -1,0 +1,68 @@
+/*Personalizzazione skin - GR*/
+#gr-modal {color:var(--due)!important}
+.skin-personalizer-button::after {top: 4px; right: 0; background-color:var(--cinque)}
+/* NOTIFICHE */
+#notifications-modal {padding: 12px}
+/* Titolo */
+#notifications-modal .modal-title {font: 29px 'roboto'; color: var(--sei); letter-spacing: 2px; padding-top: 0; padding-bottom: 5px; text-align: center}
+/* Avatar accanto alle notifiche */
+#notifications-modal .avatar {width: 60px; height: 60px; border-radius: 50px 0 50px 50px!important; border: 3px solid var(--uno); background: var(--uno); overflow: hidden}
+#notifications-modal .avatar img {object-fit: cover!important}
+/* Bottoncino sull'avatar */
+#notifications-modal .notification-image {position: relative}
+#notifications-modal .notification-image .notification-type {box-sizing:content-box; border: 3px solid var(--uno); background-color: var(--uno)}
+/* Testo notifica */
+#notifications-modal .notification-row .notification-body {width: 100%; font: 13px roboto}
+#notifications-modal .notification-row .notification-text, #notifications-modal a.notification-row .notification-date {padding-left: 5px}
+#notifications-modal .notification-row .notification-status {padding: 15px; background-color: #0000}
+/* Row */
+#notifications-modal .notification-container:not(.readed) .notification-row, #notifications-empty {background: var(--sette); border: 3px solid var(--sei); border-radius: 10px; margin: 3px!important}
+#notifications-modal .notification-container:not(.readed) .notification-row:hover {background: var(--cinque); border: 3px solid var(--sei)}
+#notifications-modal .notification-row {background: var(--quattro); padding: 4px; cursor: pointer; transition: all 0.5s ease; border: 3px solid var(--sei); border-radius: 10px; margin: 3px!important; box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+#notifications-modal .notification-row:hover {background: var(--cinque)}
+#notifications-modal .notification-row .notification-text {text-decoration: none; color: var(--uno)!important}
+.notification-container .error {color: #453F4E; font-weight: bold}
+#notifications-empty {box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+/* Read status */
+#notifications-modal .notification-row .dot {display: inline-block; height: 10px; width: 10px; background: transparent}
+#notifications-modal .notification-container:not(.readed) .dot {background-color: var(--uno)}
+#notifications-modal .notification-container:not(.readed) .notification-date, #notifications-empty {color: var(--uno); font-weight: 500}
+#notifications-links a {color: var(--sei); font-weight: 500}
+#notifications-modal .notification-container.readed .notification-text, #notifications-modal .notification-container.readed .notification-date {color: var(--uno)!important; transition: all 0.5s ease}
+#notifications-modal .notification-options {position: absolute; right: 30px}
+#notifications-modal .notification-options .dropbtn:not(:focus) {opacity: 0}
+#notifications-modal .notification-container:hover .notification-options .dropbtn {opacity: 1}
+/* Dropdown */
+.notification-container .dropbtn {width: 30px; height: 30px; background: var(--uno); border: none; position: relative; box-shadow: none; cursor: pointer; transition: all 0.5s ease; outline: none}
+.notification-container .dropbtn:hover {background-color: var(--sei)}
+.notification-container .dropbtn:before {content: ""; position: absolute; left: 6px; top: 13px; margin-left: -1px; background: var(--sette); border-radius: 50%; width: 5px; height: 5px; box-shadow: 7px 0 var(--sette), 15px 0 var(--sette)}
+/* Varie icone */
+.notification-container .mark-as-read .d-icon {background-image: url(https://i.ibb.co/wsF87rb/Letta.png)}
+.notification-container .mark-as-all-read .d-icon {background-image: url(https://i.ibb.co/Tgmgndm/doppie-spunte.png);
+top: 8px}
+.notification-container .mark-as-toread .d-icon {background-image: url(https://i.ibb.co/B62nwMr/Non-letta.png)}
+.notification-container .remove-notification .d-icon {background-image: url(https://i.ibb.co/pWdXKdK/Cancella.png)}
+.notification-container .unsubscribe .d-icon {background-image: url(https://i.ibb.co/7km1RCF/No-notifiche.png)}
+.notification-container .subscribe .d-icon {background-image: url(//cdn.forumfree.it/internals/notifications/icons/notification.svg)}
+.notification-container .add-friend .d-icon {background-image: url(//cdn.forumfree.it/internals/notifications/icons/user-add.svg)}
+.notification-container .remove-friend .d-icon {background-image: url(//cdn.forumfree.it/internals/notifications/icons/user-del.svg)}
+.notification-container .block-user .d-icon {background-image: url(//cdn.forumfree.it/internals/notifications/icons/lock.svg)}
+.notification-container .allow-user .d-icon {background-image: url(//cdn.forumfree.it/internals/notifications/icons/unlocked.svg)}
+/* Links nel dropdown */
+.notification-container .dropdown-content a {background: var(--due); color: var(--sette); padding: 6px 8px; text-decoration: none; display: block; border-radius: 10px; text-align: left; margin-bottom: 2px}
+.notification-container .dropdown-content a:last-child {margin-bottom: 0}
+.notification-container .dropdown-content a:hover {background-color: var(--uno)}
+.notification-container .show {display: block}
+#notifications-modal .plus-button {background: var(--due); border: 3px solid var(--sei); box-shadow:none}
+#notifications-modal .plus-button:before {height: 20px; width: 4px}
+#notifications-modal .plus-button:after {height: 4px; width: 20px}
+#notifications-mode {display: flex; flex-flow: row; align-items: center; margin: 0 1em}
+#notifications-mode button {flex-basis: 25%; padding: .5rem; margin: .5em .1em; background: var(--sette); border: 2px solid var(--sei); user-select: none; outline: none; transition: background .3s ease; color: var(--sei); border-radius: 8px!important; box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+#notifications-mode button > b {margin-left: 2px}
+#notifications-mode button.active, #notifications-mode button[data-mode]:hover {background: var(--due); color: var(--otto)}
+#notifications-mode button.active {font-weight: bold}
+#notifications-option-dropdown {box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)!important}
+/*Finestra che si apre premendo i tre puntini laterali*/
+.tippy-box {background-color: var(--sei) !important; border: 3px solid var(--due)}
+.tippy-box>.tippy-arrow:before {border-left-color: var(--due) !important; left: 18px!important}
+.tippy-box>.tippy-arrow:before {border-bottom-color: transparent !important}
