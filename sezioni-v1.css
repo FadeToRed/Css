@@ -67,7 +67,7 @@
 #c65073567 .zz a {color: var(--otto)}
 /*Narevka*/
 #f65073567 {position: relative; height: 165px; z-index: 9; border: 10px solid var(--cinque)}
-#f65073567::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8; background-image: url('https://upload.forumfree.net/i/ff13982804/Hunter/sez/Narevka.gif'); background-repeat: no-repeat; background-size: cover}
+#f65073567::before {z-index: -2; content: ""; position: absolute; width: 100%; height: 100%; opacity: .8;  background-repeat: no-repeat; background-size: cover}
 .nar-button {display:flex; gap: 3px; align-items: center; flex-wrap: wrap; opacity: 0; font-size: 11px}
 #c65073567 .big_list >:hover .nar-button {opacity: 1}
 .nar-button a {flex: 1 1 45%; color:var(--otto)}
