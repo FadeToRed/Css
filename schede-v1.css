@@ -147,6 +147,23 @@
 .equip-item-info a {color: var(--bordo)!important; border-bottom:none; text-decoration:none; font-weight:bold}
 .scheda-copyright {margin: 5px; margin-top: 15px; background:var(--bordo); border-radius: 0 0 30px 30px; min-height: 20px; text-align:right}
 .scheda-copyright a {color: var(--sfondo)!important; padding-right: 10px; border-bottom:none; text-decoration:none; font-family: arial; font-variant: small-caps; font-size: 14px; font-weight: bold; line-height: 1.5em}
+/*MODFICA SLIDE ABLITà*/
+/* Box interni al poteri-box */
+.nen-box {border: 2px solid var(--bordo); border-radius: 4px; overflow:hidden; margin-bottom: 8px}
+.nen-box:last-child {margin-bottom: 0}
+.nen-box-header {background:linear-gradient(90deg, var(--titolo1), var(--sfondo2)); border-bottom: 1px solid var(--titolo2); padding: 3px 8px}
+.nen-box-title {font-variant:small-caps; font-weight:bold; font-size: 12px; color:var(--titolo2); letter-spacing: 0.1em}
+.nen-box-body {background:linear-gradient(135deg, var(--sfondo) 0%, var(--sfondo2) 100%); padding: 7px 9px; font-size: 12px; line-height: 1.6em}
+
+/* Immagine nen tra box 1 e box Profili */
+.nen-img {width: 100%; height: 200px; object-fit:cover; border: 2px solid var(--bordo); display:block; margin: 8px 0}
+
+/* Card profilo / tecnica */
+.nen-card {background:linear-gradient(135deg, var(--sfondo) 0%, var(--sfondo2) 100%); border: 1px solid var(--bordo); border-left: 3px solid var(--titolo2); border-radius: 4px; padding: 8px 10px; margin-bottom: 6px; position:relative; overflow:hidden}
+.nen-card::before {content:''; position:absolute; inset: 0; background:repeating-linear-gradient(45deg, transparent, transparent 10px, var(--tratto1), var(--tratto2)); pointer-events:none}
+.nen-card:last-child {margin-bottom: 0}
+.nen-card-title {position:relative; font-variant:small-caps; font-weight:bold; font-size: 13px; color:var(--titolo2); background:var(--titolo1); display:inline-block; padding: 1px 10px; border-radius: 10px; margin-bottom: 6px}
+/*FINE MODIFICA SLIDE ABILITà*/
 /*Portfolio base*/
 .portfolio-container, .portfolio-slide, .portfolio-dati-grid, .portfolio-dati-row, .portfolio-stats-grid, .portfolio-vitali-grid, .portfolio-inv-grid, .portfolio-inv-slot, .portfolio-stat-card, .portfolio-stat-vitale, .portfolio-hatsu-card, .portfolio-barre-row, .portfolio-barra-card, .portfolio-comp-grid, .portfolio-comp-card, .portfolio-tecniche-box, .portfolio-header, .portfolio-bottoni, .portfolio-schede-slide {width: 100% !important}
 .portfolio-container {border: solid var(--bordo); border-width: 10px 4px; border-radius: 24px; background: var(--sfondo); width: 700px; display: flex; flex-direction: column; gap: 0; line-height: 1.5em; font-size: 13px; font-family: montserrat, arial}
@@ -209,6 +226,7 @@
 .portfolio-comp-lv {font-size: 9px; font-weight: bold; color: var(--sfondo); background: var(--titolo2); padding: 0 5px; border-radius: 8px; letter-spacing: 0.05em; align-self: flex-start}
 .portfolio-copyright {margin: 5px; margin-top: 8px; background: var(--bordo); border-radius: 0 0 20px 20px; min-height: 18px; text-align: right}
 .portfolio-copyright a {color: var(--sfondo)!important; padding-right: 10px; border-bottom: none; text-decoration: none; font-family: arial; font-variant: small-caps; font-size: 12px; font-weight: bold; line-height: 1.5em}
+
 /*Aggiunte NPC*/
 .info-aspetto.npc, .info-storia.npc {max-width: 100%}
 /*Slide Moveset*/
@@ -230,3 +248,8 @@
 .stella-off {color: var(--bordo); opacity: 0.25}
 /*Slide Altro */
 .slide-altro {padding: 5px; display: flex; flex-direction: column; height: 513px; box-sizing: border-box}
+/*SCHEDA APPROVAZIONE HATSU*/
+.scheda-hatsu .container-nomecognome {border-radius: 30px 30px 0 0; margin-top: -7px}
+.scheda-hatsu .div-poteri {width: 505px; height: 100%; margin: 5px; display: flex; flex-direction: column; gap: 6px}
+.scheda-hatsu .poteri-box {flex: 1; overflow: hidden; bord er: 4px solid var(--bordo); padding: 6px; font-size: 13px; line-height: 1.6em}
+.scheda-hatsu .nen-img {width: 100%; height: 200px; object-fit:cover; border: 2px solid var(--bordo); display:block; margin: 8px 0; max-width: 675px}
