@@ -1,0 +1,30 @@
+.bodyhalloween {background-color: #262A20; background-image:url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/Sfondo-hxh-Halloween.png')}
+.bodyhalloween .container {border-color: var(--ham); box-shadow: 0 0 23px var(--hac); background-color: var(--hms)}
+.bodyhalloween .menuwrap .left > .menu:nth-child(1) > a {background: var(--hac); border-color: var(--hms)}
+.bodyhalloween .menuwrap .left >.menu:nth-child(2) > a, .bodyhalloween .menuwrap .left >.menu:nth-child(3) > a, .bodyhalloween .menuwrap .left >.menu:nth-child(4) > a, .bodyhalloween .menuwrap .left >.menu:nth-child(5) > a, .bodyhalloween .menuwrap .left >.menu:nth-child(6) > a {background: var(--hmm); border-color: var(--hms)}
+.bodyhalloween .menuwrap {background: var(--ham); background: linear-gradient(180deg, var(--ham) 0%, var(--hac) 100%); border-color: var(--hmm)}
+.bodyhalloween .menuwrap li {color: var(--hms)}
+.bodyhalloween .menuwrap a {margin: 3px; font-size: 14px; color: var(--hac); padding: 0 12px}
+.bodyhalloween .menuwrap em {color: var(--hac); background: var(--hms); border-color: var(--hac)}
+.bodyhalloween .menuwrap .nick {color: var(--hmm)}
+.bodyhalloween .menuwrap .avatar {background-color: var(--hmm); border-color: var(--hmm)}
+.bodyhalloween .menu:hover .avatar {background-color: var(--hmm); border-color: var(--hmm)}
+.bodyhalloween .menu > a:hover, .bodyhalloween .menu:hover > a {color: var(--hacc)}
+.bodyhalloween .menu ul {background: var(--hac); border-color: var(--hmm)}
+.bodyhalloween .menu li {border-color: var(--hmm)}
+.bodyhalloween .menu li strong {color: var(--hms)!important}
+.bodyhalloween .menu li a {color: var(--hms) !important}
+.bodyhalloween .menu li a:hover {background: var(--ham); color: var(--hacc)!important}
+.bodyhalloween .left .menu ul ul {background: var(--hac); border-color: var(--hmm)}
+.bodyhalloween .menuwrap .search input {background: var(--hacc) url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/lente-cerca.png') no-repeat 55% 50%; border-color: var(--hmm)}
+.bodyhalloween .menuwrap .search input:hover {background-color: var(--hacc)}
+.bodyhalloween .menuwrap .search input:focus {background-color: var(--hacc)}
+.bodyhalloween .menuwrap .left > .menu:nth-child(2) > a > span {background: url(https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/hl2.png) left center no-repeat!important}
+.bodyhalloween .menuwrap .left > .menu:nth-child(3) > a > span {background: url(https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/hl3.png) left center no-repeat!important}
+.bodyhalloween .menuwrap .left > .menu:nth-child(4) > a > span {background: url(https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/hl4.png) left center no-repeat!important}
+.bodyhalloween .menuwrap .left > .menu:nth-child(5) > a > span {background: url(https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/hl5.png) left center no-repeat!important}
+.bodyhalloween .menuwrap .left > .menu:nth-child(6) > a > span {background: url(https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/hl6.png) left center no-repeat!important}
+.bodyhalloween .menuwrap .right > .menu:nth-child(1) > a > span {background: url(https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/hr1.png) left center no-repeat!important}
+.bodyhalloween .menuwrap .right > .menu:nth-child(2) > a > span {background: url(https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/hr2.png) left center no-repeat!important}
+.bodyhalloween .menuwrap .right > .menu:nth-child(3) > a > span {background: url(https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/hr3.png) left center no-repeat!important}
+.bodyhalloween .menuwrap .right > .menu:nth-child(4) > a > span {background: url(https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/hr4.png) left center no-repeat!important}
