@@ -406,9 +406,9 @@
 .bodyhalloween .bar {background: var(--hmm); color: var(--hacc) !important; border-color: var(--hms)}
 .bodyhalloween .bar div {background: var(--ham)}
 
-.bodyhalloween .topic:not(.comments, .cp) .post {background: var(--hmm)}
-.bodyhalloween .topic:not(.comments, .cp) .post .title2 {background: linear-gradient(154deg, var(--hasc), var(--hac))}
-.bodyhalloween .topic:not(.comments, .cp) .color {border-color: var(--ham); background: var(--hasc)}
+.bodyhalloween .topic:not(.comments) .post {background: var(--hmm)}
+.bodyhalloween .topic:not(.comments) .post .title2 {background: linear-gradient(154deg, var(--hasc), var(--hac))}
+.bodyhalloween .topic:not(.comments) .color {border-color: var(--ham); background: var(--hasc)}
 .bodyhalloween .topic:not(.comments, .cp) .color a {color: var(--hmm)}
 .bodyhalloween .topic:not(.comments, .cp) .color a:hover {color: var(--ham)}
 .bodyhalloween .topic:not(.comments, .cp) .color hr {border-top-color: var(--hmm)}
