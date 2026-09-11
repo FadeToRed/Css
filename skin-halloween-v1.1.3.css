@@ -151,7 +151,7 @@
 .bodyhalloween *::-webkit-selection {background: var(--hac); color:var(--hasc)}
 
 .bodyhalloween .tabs a {color: var(--hac); background: var(--hms); border-color: var(--ham)}
-.bodyhalloween .tabs a:hover, .bodyhalloween .tabs .current a {color: var(--sei); background: var(--hmm); border-color: var(--sei)}
+.bodyhalloween .tabs a:hover, .bodyhalloween .tabs .current a {color: var(--hacc); background: var(--hmm); border-color: var(--hacc)}
 .bodyhalloween .tabs.left.no_rotate a {border-color: var(--ham)}
 .bodyhalloween .tabs.right.no_rotate a {border-color: var(--ham)}
 .bodyhalloween .tabs.bottom a {background: var(--hms); border-color: var(--ham)}
@@ -371,7 +371,7 @@
 .bodyhalloween .focus:nth-child(even) {color: var(--hacc)!important; background: var(--hmm) !important}
 .bodyhalloween .cp .focus *, .bodyhalloween .forum .focus *, .bodyhalloween .blog .focus .title2, .bodyhalloween .blog .focus .tags * {color: var(--hacc) !important}
 .bodyhalloween .focus .web a, .bodyhalloween .focus .desc {color: var(--hacc)!important}
-.bodyhalloween .post.focus {background: var(--sei)!important; color:var(--due)!important}
+.bodyhalloween .post.focus {background: var(--hms)!important; color:var(--hms)!important}
 .bodyhalloween .focus .aa span {color: var(--hac)!important}
 .bodyhalloween .aa span {color: var(--hms)!important}
 .bodyhalloween .forum .yy, .bodyhalloween .forum .zz {color: var(--hms)}
