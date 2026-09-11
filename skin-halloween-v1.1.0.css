@@ -358,3 +358,52 @@
 .bodyhalloween .credits-container .credits-list .credits-script-row .credits-script-name {color: var(--hac)!important}
 .bodyhalloween .credits-container .credits-list .credits-script-row .credits-author-name {color: var(--hac)!important}
 .bodyhalloween .credits-container .credits-list .credits-script-row {color:var(--hasc); border-top-color: var(--ham)!important}
+
+.bodyhalloween .forum .annuncio {background: var(--hamc)}
+.bodyhallo ween {--filquattro: invert(48%) sepia(80%) saturate(500%) hue-rotate(-20deg)}
+.bodyhalloween .annuncio .aa img {filter: var(--filhalloween)!important}
+.bodyhalloween .annuncio.focus .aa img {filter: var(--filhalloweenf) !important}
+.bodyhalloween .importante .aa img {filter: var(--filhalloween)!important}
+.bodyhalloween .importante.focus .aa img {filter: var(--filhalloweenf) !important}
+.bodyhalloween .forum .importante {background: var(--hamc)}
+.bodyhalloween .forum .importante:hover, .bodyhalloween .forum .annuncio:hover {background: var(--hamc)}
+.bodyhalloween .focus {color: var(--hacc)!important; background: var(--hmm) !important}
+.bodyhalloween .focus:nth-child(even) {color: var(--hacc)!important; background: var(--hmm) !important}
+.bodyhalloween .cp .focus *, .bodyhalloween .forum .focus *, .bodyhalloween .blog .focus .title2, .bodyhalloween .blog .focus .tags * {color: var(--hacc) !important}
+.bodyhalloween .focus .web a, .bodyhalloween .focus .desc {color: var(--hacc)!important}
+.bodyhalloween .post.focus {background: var(--sei)!important; color:var(--due)!important}
+.bodyhalloween .focus .aa span {color: var(--hac)!important}
+.bodyhalloween .aa span {color: var(--hms)!important}
+.bodyhalloween .forum .yy, .bodyhalloween .forum .zz {color: var(--hms)}
+
+.bodyhalloween .cp {color:var(--hacc)}
+.bodyhalloween .cp .tabs .current a {color: var(--hacc); text-shadow:none; background: var(--hms) !important; border-color: var(--hac)}
+.bodyhalloween#msg .cp .sunbar.top, .bodyhalloween#user .cp .sunbar.top {background: var(--hac) !important; color:var(--hms)}
+.bodyhalloween#msg .cp .sunbar, .bodyhalloween#user .cp .sunbar, .bodyhalloween#send .send .sunbar {background: var(--hac) !important; color:var(--hms)}
+.bodyhalloween .tabs2 div:hover {background: var(--hac); color:var(--hms)!important}
+.bodyhalloween .tabs2 .current div {background: var(--hac) !important; color:var(--hms)!important}
+
+.bodyhalloween #loading .top, .bodyhalloween .summary .list .top {color: var(--hms); background: var(--ham)}
+.bodyhalloween #loading .bottom, .bodyhalloween .summary .list .bottom {border-color: var(--ham); background-color: var(--hasc); color: var(--hms)}
+.bodyhalloween .fast.send .sunbar {color: var(--hms); text-shadow: none; background: var(--hac)!important}
+.bodyhalloween .fast.send .mainbg {border-color: var(--ham); background:var(--hms)}
+.bodyhalloween .fast.send .textinput {border-color: var(--ham); background:var(--hasc)}
+.bodyhalloween .send .list {background:var(--hmm)!important}
+.bodyhalloween .send .left {color: var(--hasc)}
+.bodyhalloween .send .textinput {border-color: var(--ham); background:var(--hasc); color:var(--hms)}
+.bodyhalloween .sunbar {color: var(--hms); background: var(--hac)!important}
+.bodyhalloween .darkbar {color: var(--hms); background: var(--hac)!important}
+.bodyhalloween .sunbar a {color: var(--hms)}
+.bodyhalloween .sunbar a:hover {color: var(--hmm)}
+.bodyhalloween .summary .list > * {border-top-color: var(--hacc)}
+.bodyhalloween .summary .nick a {color:var(--hacc)}
+
+.bodyhalloween .poll .list {border-color: var(--hac); color:var(--hms)}
+.bodyhalloween .poll li {background: var(--hacc)!important; color: var(--hms)}
+.bodyhalloween .poll li:first-child {color:var(--hms); background:var(--hasc)!important}
+.bodyhalloween .poll li.max {background:var(--hac)!important; color:var(--hasc)}
+.bodyhalloween .poll li.max a {color:var(--hasc)}
+.bodyhalloween .bar {background: var(--hmm); color: var(--hacc) !important; border-color: var(--hms)}
+.bodyhalloween .bar div {background: var(--ham)}
+.bodyhalloween .max .bar {background: var(--hmm); color:var(--hasc)!important}
+.bodyhalloween .max .bar div {background: var(--ham);}
