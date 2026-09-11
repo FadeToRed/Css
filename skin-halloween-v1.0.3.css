@@ -123,5 +123,137 @@
 .bodyhalloween .tag .codebuttons:hover {border-color: var(--ham); background-color: var(--hacc)}
 .bodyhalloween .ffav_tag img {border-color: var(--hmm); background: #0000}
 .bodyhalloween .ffav_tag {border: none!important; background: #0000!important}
+
+.bodyhalloween #gdr-btn {border-color: var(--ham)}
+.bodyhalloween #gdr-btn:hover {border-color: var(--hacc)}
+.bodyhalloween #gdr-btn:hover .gdr-btn-img {filter: saturate(0.8) brightness(1.0)}
+.bodyhalloween #gdr-btn::before, .bodyhalloween #gdr-btn::after, .bodyhalloween #gdr-btn .gdr-btn-cbr, .bodyhalloween #gdr-btn .gdr-btn-cbl {border-color: var(--ham)}
+.bodyhalloween #gdr-btn:hover::before, .bodyhalloween #gdr-btn:hover::after, .bodyhalloween #gdr-btn:hover .gdr-btn-cbr, .bodyhalloween #gdr-btn:hover .gdr-btn-cbl {border-color: var(--hacc)}
+.bodyhalloween .gdr-btn-img {filter: saturate(0.7) brightness(0.9) blur(2px)}
+.bodyhalloween .gdr-btn-grid {background-image: linear-gradient(rgba(38, 42, 32, 0.15) 1px, transparent 1px), linear-gradient(90deg, rgba(38, 42, 32, 0.15) 1px, transparent 1px)}
+.bodyhalloween .gdr-btn-fade {background: linear-gradient(to right, rgba(38, 42, 32, 0.75) 0%, transparent 28%, transparent 72%, rgba(38, 42, 32, 0.75) 100%), linear-gradient(to bottom, rgba(38, 42, 32, 0.25) 0%, transparent 50%)}
+.bodyhalloween .gdr-btn-bordino {background:rgba(38, 42, 32, 0.82)!important; border-top: 1px solid rgba(38, 42, 32, 0.4)!important}
+.bodyhalloween .gdr-btn-bordino span {color: var(--hacc)!important}
+.bodyhalloween .gdr-btn-bordino i {color: var(--hac)!important}
+
+.bodyhalloween *::-webkit-scrollbar-track-piece {background: var(--hacc)}
+.bodyhalloween *::-webkit-scrollbar-thumb {background: var(--hmm)}
+.bodyhalloween::-webkit-scrollbar-track-piece {background: var(--hacc)}
+.bodyhalloween::-webkit-scrollbar-thumb {background: var(--hmm)}
+.bodyhalloween *::selection {background: var(--hac); color:var(--hasc)}
+.bodyhalloween *::-moz-selection {background: var(--hac); color:var(--hasc)}
+.bodyhalloween *::-webkit-selection {background: var(--hac); color:var(--hasc)}
+
+.bodyhalloween .tabs a {color: var(--hac); background: var(--hms); border-color: var(--ham)}
+.bodyhalloween .tabs a:hover, .bodyhalloween .tabs .current a {color: var(--sei); background: var(--hmm); border-color: var(--sei)}
+.bodyhalloween .tabs.left.no_rotate a {border-color: var(--ham)}
+.bodyhalloween .tabs.right.no_rotate a {border-color: var(--ham)}
+.bodyhalloween .tabs.bottom a {background: var(--hms); border-color: var(--ham)}
+.bodyhalloween .tabs.bottom a:hover {background: var(--cinque)}
+.bodyhalloween .tabs.left a {background: var(--hms)}
+.bodyhalloween .tabs.left a:hover {background: var(--cinque)}
+.bodyhalloween #tab_r1 a, .bodyhalloween #tab_r2 a, .bodyhalloween #tab_r3 a, .bodyhalloween #tab_r4 a, .bodyhalloween #tab_r5 a {color: var(--ham); background: var(--hms); border-color: var(--hsm)}
+.bodyhalloween #tab_r1 a:before {color: var(--hac)}
+.bodyhalloween #tab_r2 a:before {color: var(--hac)}
+.bodyhalloween #tab_r3 a:before {color: var(--hac)}
+.bodyhalloween #tab_r4 a:before {color: var(--hac)}
+.bodyhalloween #tab_r5 a:before {color: var(--hac)}
+.bodyhalloween #tab_r1 a:hover, .bodyhalloween #tab_r2 a:hover, .bodyhalloween #tab_r3 a:hover, .bodyhalloween #tab_r4 a:hover, .bodyhalloween #tab_r5 a:hover {color: var(--hacc); background: var(--hmm); border-color: var(--ham)}
+
+/* Container sezioni */
+.bodyhalloween #c65073496, .bodyhalloween #c65073567, .bodyhalloween #c65114234, .bodyhalloween #c65073571 {background:var(--hmm)}
+
+/* .zz di tutti i container */
+.bodyhalloween #c65073496 .zz, .bodyhalloween #c65073567 .zz, .bodyhalloween #c65114234 .zz, .bodyhalloween #c65073571 .zz {background: var(--hms)}
+
+/* link .zz di tutti i container */
+.bodyhalloween #c65073496 .zz a, .bodyhalloween #c65073567 .zz a, .bodyhalloween #c65114234 .zz a, .bodyhalloween #c65073571 .zz a {color: var(--hacc)}
+
+/* .when(con::before "del") — Benvenuti, Stelle Cadenti, Off-topic&Capitoli */
+.bodyhalloween #f65073496 .when, .bodyhalloween #f65112406 .when,
+.bodyhalloween #f65114234 .when, .bodyhalloween #f65114235 .when, .bodyhalloween #f65114237 .when,
+.bodyhalloween #f65073571 .when, .bodyhalloween #f65073572 .when, .bodyhalloween #f65111597 .when {color:var(--hacc)}
+.bodyhalloween #f65073496 .when::before, .bodyhalloween #f65112406 .when::before,
+.bodyhalloween #f65114234 .when::before, .bodyhalloween #f65114235 .when::before, .bodyhalloween #f65114237 .when::before,
+.bodyhalloween #f65073571 .when::before, .bodyhalloween #f65073572 .when::before, .bodyhalloween #f65111597 .when::before {color:var(--hacc)!important}
+
+/* .web a "spenti" su nero — continenti, resto del mondo, mercante/oltre */
+.bodyhalloween #c65073567 .web a,
+.bodyhalloween #f65114234 .web a, .bodyhalloween #f65114235 .web a,
+.bodyhalloween #f65114236 .web a,
+.bodyhalloween #f65114237 .web a, .bodyhalloween #f65114238 .web a,
+.bodyhalloween #f65118748 .web a, .bodyhalloween #f65118788 .web a {color:var(--bianco); background:var(--nero)}
+
+.bodyhalloween #c65073496 .who span, .bodyhalloween #c65073567 .who span, .bodyhalloween #c65114234 .who span, .bodyhalloween #c65073571 .who span {color: var(--hacc)}
+/* .web a in hover — continenti + resto del mondo */
+.bodyhalloween #c65073567 .big_list >:hover .web a, .bodyhalloween #c65114234 .big_list >:hover .web a {background: var(--ham); color: var(--hasc)}
+
+/* Bordo cinque di tutte le sezioni-continente/mondo */
+.bodyhalloween #f65073567, .bodyhalloween #f65073568, .bodyhalloween #f65073569,
+.bodyhalloween #f65114231, .bodyhalloween #f65114232, .bodyhalloween #f65114233,
+.bodyhalloween #f65114234, .bodyhalloween #f65114235, .bodyhalloween #f65114236,
+.bodyhalloween #f65114237, .bodyhalloween #f65114238,
+.bodyhalloween #f65118748, .bodyhalloween #f65118788 {border-color: var(--ham)}
+
+/* Tutti i link-bottone delle sezioni(reg, sch, nar, sol, yor, azi, ket, van, tor, merc, au, ot, cap, spm) */
+.bodyhalloween .reg-button a, .bodyhalloween .sch-button a,
+.bodyhalloween .nar-button a, .bodyhalloween .sol-button a, .bodyhalloween .yor-button a,
+.bodyhalloween .azi-button a, .bodyhalloween .ket-button a, .bodyhalloween .van-button a,
+.bodyhalloween .tor-button a, .bodyhalloween .merc-button a, .bodyhalloween .au-button a,
+.bodyhalloween .ot-button a, .bodyhalloween .cap-button a, .bodyhalloween .spm-button a {color:var(--hacc)}
+
+/* Tutti i pulsanti pieni delle sezioni — background sette */
+.bodyhalloween .r-forum, .bodyhalloween .r-gdr,
+.bodyhalloween .s-app, .bodyhalloween .s-con, .bodyhalloween .s-ina, .bodyhalloween .s-npc,
+.bodyhalloween .nar-1, .bodyhalloween .nar-2, .bodyhalloween .nar-3, .bodyhalloween .nar-4,
+.bodyhalloween .sol-1, .bodyhalloween .sol-2, .bodyhalloween .sol-3,
+.bodyhalloween .yor-1, .bodyhalloween .yor-2, .bodyhalloween .yor-3, .bodyhalloween .yor-4,
+.bodyhalloween .azi-1, .bodyhalloween .azi-2, .bodyhalloween .azi-3,
+.bodyhalloween .ket-1, .bodyhalloween .ket-2,
+.bodyhalloween .van-1, .bodyhalloween .van-2,
+.bodyhalloween .tor-1, .bodyhalloween .tor-2, .bodyhalloween .tor-3,
+.bodyhalloween .merc-1, .bodyhalloween .merc-2, .bodyhalloween .merc-3,
+.bodyhalloween .au-1, .bodyhalloween .au-2,
+.bodyhalloween .ot-nen, .bodyhalloween .ot-hunter,
+.bodyhalloween .cap-pre, .bodyhalloween .cap-trad,
+.bodyhalloween .spm-reg, .bodyhalloween .spm-ric, .bodyhalloween .spm-aff, .bodyhalloween .spm-gem {background:var(--hmm)}
+
+/* Tutti i pulsanti pieni delle sezioni — hover background sei */
+.bodyhalloween .r-forum:hover, .bodyhalloween .r-gdr:hover,
+.bodyhalloween .s-app:hover, .bodyhalloween .s-con:hover, .bodyhalloween .s-ina:hover, .bodyhalloween .s-npc:hover,
+.bodyhalloween .nar-1:hover, .bodyhalloween .nar-2:hover, .bodyhalloween .nar-3:hover, .bodyhalloween .nar-4:hover,
+.bodyhalloween .sol-1:hover, .bodyhalloween .sol-2:hover, .bodyhalloween .sol-3:hover,
+.bodyhalloween .yor-1:hover, .bodyhalloween .yor-2:hover, .bodyhalloween .yor-3:hover, .bodyhalloween .yor-4:hover,
+.bodyhalloween .azi-1:hover, .bodyhalloween .azi-2:hover, .bodyhalloween .azi-3:hover,
+.bodyhalloween .ket-1:hover, .bodyhalloween .ket-2:hover,
+.bodyhalloween .van-1:hover, .bodyhalloween .van-2:hover,
+.bodyhalloween .tor-1:hover, .bodyhalloween .tor-2:hover, .bodyhalloween .tor-3:hover,
+.bodyhalloween .merc-1:hover, .bodyhalloween .merc-2:hover, .bodyhalloween .merc-3:hover,
+.bodyhalloween .au-1:hover, .bodyhalloween .au-2:hover,
+.bodyhalloween .ot-nen:hover, .bodyhalloween .ot-hunter:hover,
+.bodyhalloween .cap-pre:hover, .bodyhalloween .cap-trad:hover,
+.bodyhalloween .spm-reg:hover, .bodyhalloween .spm-ric:hover, .bodyhalloween .spm-aff:hover, .bodyhalloween .spm-gem:hover {background: var(--hms)}
+
+.bodyhalloween .board .skin_tbl.box_minus, .bodyhalloween .board .skin_tbl.box_plus, .bodyhalloween .stats .skin_tbl, .bodyhalloween .forum .skin_tbl, .bodyhalloween .fast.send .skin_tbl {background: transparent}
+.bodyhalloween .mback {background-color: var(--hmm)}
+.bodyhalloween .mtitle {color: var(--hacc); background: transparent !important}
+.bodyhalloween .title, .bodyhalloween .darkbar {background: var(--bianco) !important; color: var(--nero)}
+.bodyhalloween .list:not(.send .list) > *, .bodyhalloween table.mainbg tr, .bodyhalloween .profile .skin_tbl {background: var(--bianco)}
+.bodyhalloween .list:not(.send .list) > *:nth-child(even), .bodyhalloween table.mainbg tr:nth-child(even) {background: var(--bianco)}
+.bodyhalloween .big_list > * {background: var(--ham)}
+.bodyhalloween .big_list > *:nth-child(even) {background: var(--hac)}
+.bodyhalloween .big_list > *:hover {background: var(--hacc)}
+.bodyhalloween .big_list > *:nth-child(even):hover {background: var(--hacc)}
+.bodyhalloween .web a {color: var(--hms)}
+.bodyhalloween .big_list > *:hover .web a {color:var(--hmm)}
+.bodyhalloween .board .topics {background: var(--hmm); color: var(--hacc)!important}
+.bodyhalloween .board .replies {background: var(--hmm); color: var(--hacc)!important}
+
+.bodyhalloween .desc {color: var(--hms)}
+.bodyhalloween .mods {color: var(--hms)}
+.bodyhalloween .mods a {color: var(--hms)}
+.bodyhalloween .subs {color: var(--hms)}
+.bodyhalloween .subs a{color: var(--hms)}
+.bodyhalloween #f_up i{color:var(--hac)!important}
 .bodyhalloween .ico-wrapper {border: 2px solid var(--ham);}
 .bodyhalloween .fb-ico, .bodyhalloween .telegram-ico, .bodyhalloween .yt-ico, .bodyhalloween .cerca-staff-ico, .bodyhalloween .hatsu-ico, .bodyhalloween .cap-ico, .bodyhalloween .spam-ico, .bodyhalloween .esp-ico, .bodyhalloween .kofi-ico {background-color: var(--hacc);}
