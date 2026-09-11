@@ -85,7 +85,7 @@
 .bodyhalloween .hb-container .hb-spoiler {background: var(--sette)!important}
 .bodyhalloween .hb-message:nth-child(odd) {color: var(--uno); border-color: var(--hmm); background: var(--hacc)}
 .bodyhalloween .hb-message:nth-child(even) {color: var(--uno); border-color: var(--hmm); background: var(--hacc)}
-.bodyhalloween .hb-container .hb-loader-wrapper .loader-animation:before, .bodyhalloween .hb-container .hb-loader-wrapper .loader-animation:after {background-color: var(--hmm)!important}
+.bodyhalloween .hb-container .hb-loader-wrapper .loader-animation:before, .bodyhalloween .hb-container .hb-loader-wrapper .loader-animation:after {background-color: var(--hms)!important}
 .bodyhalloween .gdr-on {border-right-color: var(--ham)!important; background:linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(67, 40, 26, 0.05) 100%); box-shadow:inset 0 0 10px rgba(0, 0, 0, 0.1)}
 .bodyhalloween .gdr-off {background:linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(67, 40, 26, 0.05) 100%); box-shadow:inset 0 0 10px rgba(0, 0, 0, 0.1)}
 .bodyhalloween .t-card {background: linear-gradient(135deg, var(--hms) 0%, var(--hmm) 50%, var(--hmm) 100%); outline-color: var(--hacc); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3), inset 0 0 0 1px rgba(67, 40, 26, 0.3)}
