@@ -405,5 +405,51 @@
 .bodyhalloween .poll li.max a {color:var(--hasc)}
 .bodyhalloween .bar {background: var(--hmm); color: var(--hacc) !important; border-color: var(--hms)}
 .bodyhalloween .bar div {background: var(--ham)}
+
+.bodyhalloween .topic:not(.comments, .cp) .post {background: var(--hmm)}
+.bodyhalloween .topic:not(.comments, .cp) .post .title2 {background: linear-gradient(154deg, var(--hasc), var(--hac))}
+.bodyhalloween .topic:not(.comments, .cp) .color {border-color: var(--ham); background: var(--hasc)}
+.bodyhalloween .topic:not(.comments, .cp) .color a {color: var(--hmm)}
+.bodyhalloween .topic:not(.comments, .cp) .color a:hover {color: var(--ham)}
+.bodyhalloween .topic:not(.comments, .cp) .color hr {border-top-color: var(--hmm)}
+.bodyhalloween .topic:not(.comments, .cp) .edit {color: rgba(0, 0, 0, .25)}
+.bodyhalloween .topic:not(.comments, .cp) .fancytop {color:var(--hmm)}
+.bodyhalloween .topic:not(.comments, .cp) .fancyborder {border-color: var(--hmm) !important; background: var(--hacc); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3); color:var(--hmm)}
+.bodyhalloween .topic:not(.comments, .cp) .fancyborder a {color:var(--hmm)}
+.bodyhalloween .topic:not(.comments, .cp) .bottomborder {border-bottom-color: var(--hms)}
+.bodyhalloween .topic:not(.comments, .cp) .signature {background: var(--hacc); border-color: var(--ham); box-shadow: 1px 4px 0 rgba(0, 0, 0, 0.3)}
+.bodyhalloween .topic:not(.comments, .cp) .post .nick {color: rgba(0, 0, 0, .45)}
+.bodyhalloween .topic:not(.comments, .cp) .details a {color: var(--hmm)}
+.bodyhalloween .topic:not(.comments, .cp) .post .details {background-image:none; background-color:var(--hac)}
+.bodyhalloween .topic:not(.comments, .cp) .post .avatar img {border-color: var(--hmm); background: var(--hac)}
+.bodyhalloween .color mark, .bodyhalloween #markdiv mark {background: var(--hac); color: var(--hms)}
+.bodyhalloween .topic:not(.comments, .cp) .details > dl {color: var(--hmm)}
+.bodyhalloween .topic .u_rank i {color:var(--hmm)!important}
+.bodyhalloween .topic:not(.comments, .cp) .u_group, .bodyhalloween .topic:not(.comments, .cp) .u_posts, .bodyhalloween .topic:not(.comments, .cp) .u_reputation {background:var(--hacc); border-bottom-color: var(--hac); color: var(--hmm)}
+.bodyhalloween .topic:not(.comments, .cp) .details p, .bodyhalloween .topic:not(.comments, .cp) .u_status {background: var(--hacc); color: var(--hmm)}
+.bodyhalloween .quoteentry img {box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)!important; border-color: var(--hmm)!important; background: var(--hacc)!important}
+.bodyhalloween [class~=code] li {background-color:rgba(0, 0, 0, .1)}
+.bodyhalloween [class~=code] li:nth-child(2n) {background-color:rgba(0, 0, 0, .2)}
+.bodyhalloween .select_code {color:var(--hms)!important}
+.bodyhalloween .select_code:before {color: var(--hms)}
+.bodyhalloween .select_code:after {color: var(--hms)}
+.bodyhalloween .quote, .bodyhalloween .spoiler .code {color: var(--hms); background: var(--hacc); border-color: var(--hmm); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+.bodyhalloween .code {color: #999; background: #505050; border-color: var(--hmm); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+.bodyhalloween .quote .quote, .bodyhalloween .spoiler .quote, .bodyhalloween .quote .spoiler .code {color: var(--hasc); background: var(--hac)}
+.bodyhalloween .code .code {color: #999; background: #505050}
+.bodyhalloween .quote .quote .quote, .bodyhalloween .quote .quote .code, .bodyhalloween .spoiler .quote .quote, .bodyhalloween .spoiler .quote .code, .bodyhalloween .quote .spoiler .quote, .bodyhalloween .quote .code .code {color: var(--hms); background: var(--hacc)}
+.bodyhalloween .quote .code .code, .bodyhalloween .spoiler .quote .code, .bodyhalloween .quote .quote .code {color: #999; background: #505050}
+.bodyhalloween .quote .quote .quote .quote, .bodyhalloween .quote .quote .quote .code, .bodyhalloween .spoiler .quote .quote .quote, .bodyhalloween .spoiler .quote .quote .code, .bodyhalloween .quote .spoiler .quote .quote, .bodyhalloween .quote .spoiler .quote .code, .bodyhalloween .quote .quote .spoiler .quote, .bodyhalloween .quote .quote .code .code, .bodyhalloween .quote .quote .quote .code {color: var(--hasc); background: var(--hac)}
+.bodyhalloween .quote .quote .quote .code, .bodyhalloween .quote .quote .code .code, .bodyhalloween .quote .spoiler .quote .code, .bodyhalloween .spoiler .quote .quote .code, .bodyhalloween .quote .quote .quote .code {color: #999; background: #505050}
+.bodyhalloween .quote_top, .bodyhalloween .code_top {color: var(--hacc); background-color: var(--hmm); border-color: var(--ham); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+.bodyhalloween .quote_top a, .bodyhalloween .code_top a {color: var(--hac)!important}
+.bodyhalloween .quote_top a:hover, .bodyhalloween .code_top a:hover {color: var(--hacc)!important}
+.bodyhalloween .spoiler .code_top:before {color: var(--hac)}
+.bodyhalloween .code_top:before {color: var(--hac)}
+.bodyhalloween .code_top:after {color: #CCC}
+.bodyhalloween .quote .quote_top:before, .bodyhalloween .quote .code_top:before, .bodyhalloween .quote .code_top:after, .bodyhalloween .spoiler .quote_top:before, .bodyhalloween .code .code_top:before, .bodyhalloween .code .code_top:after {color: var(--hac)}
+.bodyhalloween .quote .quote .quote_top:before, .bodyhalloween .quote .quote .code_top:before, .bodyhalloween .quote .quote .code_top:after, .bodyhalloween .spoiler .quote .quote_top:before, .bodyhalloween .spoiler .quote .code_top:before, .bodyhalloween .spoiler .quote .code_top:after, .bodyhalloween .quote .spoiler .quote_top:before, .bodyhalloween .quote .code .code_top:before, .bodyhalloween .quote .code .code_top:after {color: var(--hac)}
+.bodyhalloween .quote .quote .quote .quote_top:before, .bodyhalloween .quote .quote .quote .code_top:before, .bodyhalloween .quote .quote .quote .code_top:after, .bodyhalloween .spoiler .quote .quote .quote_top:before, .bodyhalloween .spoiler .quote .quote .code_top:before, .bodyhalloween .spoiler .quote .quote .code_top:after, .bodyhalloween .quote .spoiler .quote .quote_top:before, .bodyhalloween .quote .spoiler .quote .code_top:before, .bodyhalloween .quote .spoiler .quote .code_top:after, .bodyhalloween .quote .quote .spoiler .quote_top:before, .bodyhalloween .quote .quote .code .code_top:before, .bodyhalloween .quote .quote .code .code_top:after, .bodyhalloween .quote .quote .quote .code_top:before, .bodyhalloween .quote .quote .quote .code_top:after {color: var(--hac)}
+
 .bodyhalloween .max .bar {background: var(--hmm); color:var(--hasc)!important}
 .bodyhalloween .max .bar div {background: var(--ham);}
