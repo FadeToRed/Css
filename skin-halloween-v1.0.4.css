@@ -237,7 +237,7 @@
 .bodyhalloween .board .skin_tbl.box_minus, .bodyhalloween .board .skin_tbl.box_plus, .bodyhalloween .stats .skin_tbl, .bodyhalloween .forum .skin_tbl, .bodyhalloween .fast.send .skin_tbl {background: transparent}
 .bodyhalloween .mback {background-color: var(--hmm)}
 .bodyhalloween .mtitle {color: var(--hacc); background: transparent !important}
-.bodyhalloween .title, .bodyhalloween .darkbar {background: var(--bianco) !important; color: var(--nero)}
+.bodyhalloween .title, .bodyhalloween .darkbar {background: var(--hmm) !important; color: var(--hacc)}
 .bodyhalloween .list:not(.send .list) > *, .bodyhalloween table.mainbg tr, .bodyhalloween .profile .skin_tbl {background: var(--bianco)}
 .bodyhalloween .list:not(.send .list) > *:nth-child(even), .bodyhalloween table.mainbg tr:nth-child(even) {background: var(--bianco)}
 .bodyhalloween .big_list > * {background: var(--ham)}
