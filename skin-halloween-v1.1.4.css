@@ -405,6 +405,8 @@
 .bodyhalloween .poll li.max a {color:var(--hasc)}
 .bodyhalloween .bar {background: var(--hmm); color: var(--hacc) !important; border-color: var(--hms)}
 .bodyhalloween .bar div {background: var(--ham)}
+.bodyhalloween .max .bar {background: var(--hmm); color:var(--hasc)!important}
+.bodyhalloween .max .bar div {background: var(--ham);}
 
 .bodyhalloween .topic:not(.comments) .post {background: var(--hmm)}
 .bodyhalloween .topic:not(.comments) .post .title2 {background: linear-gradient(154deg, var(--hasc), var(--hac))}
@@ -451,5 +453,89 @@
 .bodyhalloween .quote .quote .quote_top:before, .bodyhalloween .quote .quote .code_top:before, .bodyhalloween .quote .quote .code_top:after, .bodyhalloween .spoiler .quote .quote_top:before, .bodyhalloween .spoiler .quote .code_top:before, .bodyhalloween .spoiler .quote .code_top:after, .bodyhalloween .quote .spoiler .quote_top:before, .bodyhalloween .quote .code .code_top:before, .bodyhalloween .quote .code .code_top:after {color: var(--hac)}
 .bodyhalloween .quote .quote .quote .quote_top:before, .bodyhalloween .quote .quote .quote .code_top:before, .bodyhalloween .quote .quote .quote .code_top:after, .bodyhalloween .spoiler .quote .quote .quote_top:before, .bodyhalloween .spoiler .quote .quote .code_top:before, .bodyhalloween .spoiler .quote .quote .code_top:after, .bodyhalloween .quote .spoiler .quote .quote_top:before, .bodyhalloween .quote .spoiler .quote .code_top:before, .bodyhalloween .quote .spoiler .quote .code_top:after, .bodyhalloween .quote .quote .spoiler .quote_top:before, .bodyhalloween .quote .quote .code .code_top:before, .bodyhalloween .quote .quote .code .code_top:after, .bodyhalloween .quote .quote .quote .code_top:before, .bodyhalloween .quote .quote .quote .code_top:after {color: var(--hac)}
 
-.bodyhalloween .max .bar {background: var(--hmm); color:var(--hasc)!important}
-.bodyhalloween .max .bar div {background: var(--ham);}
+
+
+.bodyhalloween .title a {color:var(--hasc)}
+
+.bodyhalloween .inter-topics-tips-box a {color: var(--hasc)!important}
+.bodyhalloween .inter-topics-tips-box {color:var(--hms)!important}
+.bodyhalloween li#inter-topics-tips-box {background: var(--hac) !important}
+
+.bodyhalloween#msg .post {border-color: var(--ham)!important; background-color:var(--hmm)}
+.bodyhalloween#msg .post .title2 {background: linear-gradient(154deg, var(--hasc), var(--hac))}
+.bodyhalloween#msg .post .color {background:var(--hasc); border-color: var(--ham)!important}
+.bodyhalloween#msg .color {color: var(--hms)}
+.bodyhalloween#msg .post .right {color: var(--hms)}
+.bodyhalloween#msg .post .nick {color:var(--hms)}
+.bodyhalloween#msg .post .nick a {color: var(--hms)}
+.bodyhalloween#msg .details .avatar img {border-color: var(--hmm); background-color:var(--hac); box-shadow: 2px 3px 0 rgba(0, 0, 0, 0.3)}
+.bodyhalloween#msg .u_group, .bodyhalloween#msg .u_posts, .bodyhalloween#msg .u_joined {background:var(--hacc); border-bottom-color: var(--hmm); color: var(--hmm)}
+.bodyhalloween#msg .mini_buttons a {color: var(--hmm)}
+.bodyhalloween#msg .sunbar {background-color:var(--hac)!important; color:var(--hms)!important}
+
+.bodyhalloween .profile .tabs a {color: transparent}
+.bodyhalloween .profile .tabs a:before {color: var(--hac)}
+.bodyhalloween .profile .skin_tbl {background: var(--hac)!important}
+.bodyhalloween .profile .avatar img {border-color: var(--hacc); background-color:var(--hms)}
+.bodyhalloween .profile .avatar {filter: drop-shadow(2px 2px 0 rgba(0, 0, 0, 0.3))}
+.bodyhalloween .box_anonimo .profile .avatar::after {border-color: var(--hms); background:var(--anonimo)}
+.bodyhalloween .box_online .profile .avatar::after {border-color: var(--hms); background: var(--online)}
+.bodyhalloween .box_offline .profile .avatar::after {border-color: var(--hms); background: var(--offline)}
+.bodyhalloween .profile .right {border-color: var(--hms); background-color: var(--hasc); color: var(--hms); box-shadow: 4px 3px 0 rgba(0, 0, 0, 0.3)}
+.bodyhalloween .profile .nick {color: var(--hacc); text-shadow: none}
+.bodyhalloween .profile .left {background: var(--hms); box-shadow: 4px 3px 0 rgba(0, 0, 0, 0.3)}
+.bodyhalloween .profile .left dt {color: #FFF!important; background: #282828}
+.bodyhalloween .profile .left > dl {background: #FFF; border-color: #282828; color: #282828}
+.bodyhalloween .profile .left .mini_buttons a {color: var(--hmm); background: var(--hacc)}
+.bodyhalloween .profile .list {border-color: var(--ham)}
+.bodyhalloween .profile .right dl {background:var(--hms)!important; color: var(--hacc)}
+.bodyhalloween .profile .right dl a {color: var(--hasc)}
+.bodyhalloween .profile .right dl:hover {background:var(--hmm)!important; color:var(--hasc)}
+.bodyhalloween .profile .right dl:hover a {color:var(--hacc)}
+.bodyhalloween .profile dl.rep_pos dd a, .bodyhalloween .profile dl.rep_neg dd a {color:var(--hacc)!important}
+.bodyhalloween .profile .mysocials-list {background-color: var(--hacc)!important}
+.bodyhalloween .profile .mypets-list {background-color: var(--hacc)!important}
+
+/* h3 dei due container */
+.bodyhalloween #gdr-tab-content h3, .bodyhalloween #staff-tasks-container h3 {color:var(--hacc); border-bottom-color:var(--hacc)}
+/* sezioni verdi con bordo teal — gdr-section, tasks-section, add-task-form */
+.bodyhalloween .gdr-section, .bodyhalloween .tasks-section {background:var(--hms); border-left-color:var(--hamc)}
+.bodyhalloween .add-task-form {background:var(--hms); border-left-color:var(--hamc)}
+.bodyhalloween .tasks-section.completed-section {background:var(--hms); border-left-color:var(--hamc)}
+/* h4 blu delle sezioni */
+.bodyhalloween .gdr-section h4, .bodyhalloween .tasks-section h4, .bodyhalloween .add-task-form h4 {color:var(--hacc)}
+/* contatori */
+.bodyhalloween .gdr-section h4 .count, .bodyhalloween .tasks-section h4 .count {color:var(--hac)}
+/* righe lista — sheets-list li, task-item */
+.bodyhalloween .sheets-list li {border-bottom-color:var(--hac); background:var(--hac)}
+.bodyhalloween .task-item {background:var(--hac)}
+.bodyhalloween .sheets-list li:hover {background:var(--hacc); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)}
+.bodyhalloween .task-item:hover {background:var(--hacc)}
+/* titoli scuri — sheet-title, task-title */
+.bodyhalloween .sheet-title, .bodyhalloween .task-title {color:var(--hms)}
+.bodyhalloween .sheet-title:hover {color:var(--hms)}
+/* tag date/meta su verde chiaro — sheet-dates span, task-assigned */
+.bodyhalloween .sheet-dates span, .bodyhalloween .task-assigned {color:var(--hmm); background:var(--hacc)}
+/* tag su teal con testo bianco — date-modified, task-date */
+.bodyhalloween .date-modified, .bodyhalloween .task-date {background:var(--hacc)!important; var(--hmm)}
+.bodyhalloween .date-created {background:var(--hacc)!important; color: var(--hmm)}
+/* empty / loading condivisi */
+.bodyhalloween .empty {color:var(--hacc)}
+.bodyhalloween .loading {color:var(--hacc)}
+/* progress gdr */
+.bodyhalloween #gdr-progress {background:var(--hacc); color: var(--hmm)}
+/* input form task */
+.bodyhalloween .add-task-form input {border-color:var(--hacc)}
+.bodyhalloween .add-task-form input:focus {border-color:var(--hacc)}
+/* pulsante form task */
+.bodyhalloween .add-task-form button {background:var(--hacc); color:var(--hmm)}
+.bodyhalloween .add-task-form button:hover {background:var(--hacc)}
+/* pulsante elimina */
+.bodyhalloween .task-delete {background:var(--hacc); color: var(--hmm)}
+.bodyhalloween .task-delete:hover {background:var(--hacc)}
+
+.bodyhalloween #profile-tracker #tracked-list li.tracked-entity {background:var(--hacc); color:var(--hms)}
+.bodyhalloween #profile-tracker #tracked-list li.tracked-entity:hover {background:var(--hasc)}
+.bodyhalloween #profile-tracker li.title {color: var(--hacc)}
+.bodyhalloween #gr-modal {color:var(--hms)!important}
+.bodyhalloween .skin-personalizer-button::after {background-color:var(--hacc)}
