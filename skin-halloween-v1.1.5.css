@@ -537,5 +537,65 @@
 .bodyhalloween #profile-tracker #tracked-list li.tracked-entity {background:var(--hacc); color:var(--hms)}
 .bodyhalloween #profile-tracker #tracked-list li.tracked-entity:hover {background:var(--hasc)}
 .bodyhalloween #profile-tracker li.title {color: var(--hacc)}
+
+
+.bodyhalloween .st-badge-1 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/1h.png')}
+.bodyhalloween .st-badge-2 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/2h.png')}
+.bodyhalloween .st-badge-3 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/3h.png')}
+.bodyhalloween .st-badge-4 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/4h.png')}
+.bodyhalloween .st-badge-5 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/5h.png')}
+.bodyhalloween .st-badge-6 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/6h.png')}
+.bodyhalloween .st-badge-7 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/7h.png')}
+.bodyhalloween .st-badge-8 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/8h.png')}
+.bodyhalloween .st-badge-9 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/9h.png')}
+.bodyhalloween .st-badge-10 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/10h.png')}
+
+.bodyhalloween .pages2 a:link, .bodyhalloween .pages2 a:visited {color: var(--hasc) !important; text-shadow: none !important; background: var(--hmm); border-color: var(--hmm)}
+.bodyhalloween .pages2 a:hover {background:var(--hms); color: var(--hacc) !important; border-color: var(--hms)}
+.bodyhalloween .pages li a, .bodyhalloween .pages .current {color: var(--hms); background: var(--hacc); border-color: var(--hacc)}
+.bodyhalloween .pages li a:hover {background: var(--hac); border-color: var(--hac)}
+.bodyhalloween .pages .current {color: var(--hms); background: var(--hacc); border-color: var(--hacc)}
+.bodyhalloween .pages .jump a, .bodyhalloween .pages .lastpost a {color: var(--hms); background: var(--hacc); border-color: var(--hacc)}
+.bodyhalloween .pages .jump a:hover, .bodyhalloween .pages .lastpost a:hover {color: var(--hms); background: var(--hacc); border-color: var(--hacc)}
+.bodyhalloween .pages .first a, .bodyhalloween .pages .last a {background: var(--hacc); border-color: var(--hacc)}
+.bodyhalloween .pages .first a:hover, .bodyhalloween .pages .last a:hover {background: var(--hacc); border-color: var(--hacc)}
+
+.bodyhalloween .codebuttons, .bodyhalloween .forminput, .bodyhalloween .textinput {color: var(--hms); background: var(--hasc); border-color: var(--ham); filter: drop-shadow(2px 2px 0 rgba(0, 0, 0, 0.3)); box-shadow: inset 0 1px 0 #FFF}
+.bodyhalloween .textinput:focus, .bodyhalloween .forminput[type=text]:focus, .bodyhalloween .forminput[type=password]:focus {border-color: var(--ham); box-shadow: 0 0 8px var(--hac)}
+.bodyhalloween .codebuttons:hover {background: var(--hasc); border-color: var(--ham)}
+.bodyhalloween .sunbar .forminput {color: var(--hms); background: var(--hasc); border-color: var(--hms); box-shadow: none}
+.bodyhalloween .sunbar .forminput:hover {background: var(--hasc); border-color: var(--hms)}
+
+.bodyhalloween .navsub .forminput {color: var(--hms); background: var(--hasc); border-color: var(--ham)}
+.bodyhalloween .navsub .forminput:hover, .bodyhalloween .navsub .forminput:focus {background: var(--hasc)}
+.bodyhalloween .title .forminput {color: var(--hms); background: var(--hasc); border-color: var(--ham)}
+.bodyhalloween .title .forminput:hover {background: var(--hasc)}
+.bodyhalloween .title input.forminput {color: var(--hms); background:var(--hasc); border-color: var(--ham)}
+.bodyhalloween .title input.forminput:hover {background: var(--hasc)}
+.bodyhalloween .darkbar .forminput, .bodyhalloween .fast.send .forminput {color: var(--hms); background: var(--hasc); border-color: var(--ham)}
+.bodyhalloween .darkbar .forminput:hover, .bodyhalloween .fast.send .forminput:hover {background: var(--hacc)}
+.bodyhalloween .darkbar .forminput {border-color: var(--ham) !important}
+.bodyhalloween .darkbar input.forminput, .bodyhalloween .fast.send input.forminput {background: var(--hasc); box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3)}
+.bodyhalloween .darkbar button.forminput {color: var(--hms); background: var(--hasc); box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3)}
+.bodyhalloween .darkbar button.forminput:hover {color: var(--hms); background: var(--hasc)}
+.bodyhalloween .buttons span {color: var(--hasc); background: var(--ham); border-color: var(--ham); filter: drop-shadow(2px 1px 0 rgba(0, 0, 0, 0.3))}
+.bodyhalloween .buttons span:hover {background: var(--hac); border-color: var(--hac)}
+ body.bodyhalloween {--sette: var(--hasc)}
+
+ .bodyhalloween .ff-modal {background: var(--hms); border-color: var(--ham); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3); color:var(--hasc)}
+.bodyhalloween .ff-modal .info {background:var(--hasc)!important; color:var(--hms)!important; border-color: var(--ham); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+.bodyhalloween .ff-modal .forminput, .bodyhalloween .ff-modal .codebuttons {border-color: var(--ham)!important}
+.bodyhalloween summary {background:var(--hacc)!important; border-color: var(--hms); filter: drop-shadow(3px 2px 0 rgba(0, 0, 0, 0.3)); color:var(--hms); list-style-image: url(https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/newsH.gif)}
+.bodyhalloween summary::-webkit-details-marker {background: url(https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/newsH.gif); color: transparent}
+.bodyhalloween details[open] summary {background: var(--hacc)}
+.bodyhalloween details[open] {background:var(--hms); border-color: var(--hms); filter: drop-shadow(3px 2px 0 rgba(0, 0, 0, 0.3)); color: var(--hasc)}
+.bodyhalloween .rego-testo {color: var(--hms)}
+.bodyhalloween .rego-testo a {color: var(--ham)!important; font-weight:bold}
+.bodyhalloween .rego {border-color: var(--ham); background: var(--hasc)}
+.bodyhalloween .rego:before {color: var(--hacc)}
+
+.bodyhalloween .keyword_wrapper {background-color: var(--ham) !important; box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+.bodyhalloween .keyword_inner {background:var(--hasc);color: var(--hms)}
+.bodyhalloween .keyword_inner h3 {background: var(--hms) !important; color: var(--hacc); border-color: var(--hms)}
 .bodyhalloween #gr-modal {color:var(--hms)!important}
 .bodyhalloween .skin-personalizer-button::after {background-color:var(--hacc)}
