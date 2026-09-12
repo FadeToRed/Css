@@ -1,4 +1,4 @@
-.bodyhalloween {background-color: #262A20; background-image:url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/Sfondo-hxh-Halloween.png')}
+.bodyhalloween {background-color: #262A20; background-image:url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/Sfondo-hxh-Halloween.png'); color: var(--hms);}
 .bodyhalloween a {color: var(--hms)}
 .bodyhalloween .nav {color:var(--hacc)}
 .bodyhalloween .nav a {color:var(--hac)}
