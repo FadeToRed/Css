@@ -385,3 +385,35 @@
 .bodynatale .focus .aa span {color: var(--nvm)!important}
 .bodynatale .aa span {color: var(--nvn)!important}
 .bodynatale .forum .yy, .bodynatale .forum .zz {color: var(--nvn)}
+
+.bodynatale .cp {color:var(--nvn)}
+.bodynatale .cp .tabs .current a {color: var(--nvs); text-shadow:none; background: var(--nvc) !important; border-color: var(--nvs)}
+.bodynatale#msg .cp .sunbar.top, .bodynatale#user .cp .sunbar.top {background: var(--nvs) !important; color:var(--nvc)}
+.bodynatale#msg .cp .sunbar, .bodynatale#user .cp .sunbar, .bodynatale#send .send .sunbar {background: var(--nvs) !important; color:var(--nvc)}
+.bodynatale .tabs2 div:hover {background: var(--nvs); color:var(--nvc)!important}
+.bodynatale .tabs2 .current div {background: var(--nvs) !important; color:var(--nvc)!important}
+
+.bodynatale #loading .top, .bodynatale .summary .list .top {color: var(--nvc); background: var(--nvs)}
+.bodynatale #loading .bottom, .bodynatale .summary .list .bottom {border-color: var(--nvs); background-color: var(--ncc); color: var(--nvn)}
+.bodynatale .fast.send .sunbar {color: var(--ncc); text-shadow: none; background: var(--nvm)!important}
+.bodynatale .fast.send .mainbg {border-color: var(--nvm); background:var(--nvc)}
+.bodynatale .fast.send .textinput {border-color: var(--nvm); background:var(--ncc)}
+.bodynatale .send .list {background:var(--nvc)!important}
+.bodynatale .send .left {color: var(--nvn)}
+.bodynatale .send .textinput {border-color: var(--nvm); background:var(--ncc); color:var(--nvs)}
+.bodynatale .sunbar {color: var(--nvc); background: var(--nvs)!important}
+.bodynatale .darkbar {color: var(--ncc); background: var(--nvm)!important}
+.bodynatale .sunbar a {color: var(--ncc)}
+.bodynatale .sunbar a:hover {color: var(--nvc)}
+.bodynatale .summary .list > * {border-top-color: var(--nvs)}
+.bodynatale .summary .nick a {color:var(--nvs)}
+
+.bodynatale .poll .list {border-color: var(--nvs); color:var(--hms); background:var(--nvn)}
+.bodynatale .poll li {background: var(--nvc)!important; color: var(--nvs)}
+.bodynatale .poll li:first-child {color:var(--nvs); background:var(--ncc)!important}
+.bodynatale .poll li.max {background:var(--nvm)!important; color:var(--ncc)}
+.bodynatale .poll li.max a {color:var(--hasc)}
+.bodynatale .bar {background: var(--nvn); color: var(--ncc) !important; border-color: var(--nvn)}
+.bodynatale .bar div {background: var(--nvm)}
+.bodynatale .max .bar {background: var(--nvn); color:var(--ncc)!important}
+.bodynatale .max .bar div {background: var(--nvs)}
