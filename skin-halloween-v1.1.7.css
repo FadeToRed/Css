@@ -348,6 +348,7 @@
 .bodyhalloween .daily-list {background:var(--hms); border-color: var(--ham)}
 .bodyhalloween .dailyusers-member-link img {border-color: var(--ham)!important}
 .bodyhalloween .du-modal .daily-list>li>div.dailyusers-member-details {color:var(--hacc)}
+.bodyhalloween .du-modal .daily-list>li>div.dailyusers-member-details a {color:var(--hacc)}
 .bodyhalloween .du-modal .daily-list>li:not(:first-child) {border-top-color: var(--hac) !important}
 .bodyhalloween .cs-btn {border-color: var(--ham)!important; background-color: var(--hmm)!important; color: var(--hasc)!important}
 .bodyhalloween .cs-btn:hover {border-color: var(--ham); background-color: var(--hms)!important; color: var(--hasc)}
