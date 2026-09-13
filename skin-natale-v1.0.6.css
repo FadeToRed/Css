@@ -164,6 +164,10 @@
 .bodynatale #tab_r2 a:before {color: var(--nvn)}
 .bodynatale #tab_r3 a:before {color: var(--nvn)}
 .bodynatale #tab_r4 a:before {color: var(--nvn)}
+.bodynatale #tab_r5 a:before {color: var(--nvn)}
+.bodynatale #tab_r1 a:hover, .bodynatale #tab_r2 a:hover, .bodynatale #tab_r3 a:hover, .bodynatale #tab_r4 a:hover, .bodynatale #tab_r5 a:hover {color: var(--nvn); background: var(--nvm); border-color: var(--nvss)}
+
+
 
 /* Container sezioni */
 .bodynatale #c65073496, .bodynatale #c65073567, .bodynatale #c65114234, .bodynatale #c65073571 {background:var(--nvs)}
@@ -307,5 +311,39 @@
 .bodynatale .team-zone-recruit-banner a {color: var(--ncc)}
 
 
-.bodynatale #tab_r5 a:before {color: var(--nvn)}
-.bodynatale #tab_r1 a:hover, .bodynatale #tab_r2 a:hover, .bodynatale #tab_r3 a:hover, .bodynatale #tab_r4 a:hover, .bodynatale #tab_r5 a:hover {color: var(--nvn); background: var(--nvm); border-color: var(--nvss)}
+
+.bodynatale .credits {background: linear-gradient(135deg, var(--nvn) 0%, var(--nvs) 50%, var(--nvn) 100%); border-top-color: var(--nvm); box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(94, 126, 113, 0.3)}
+.bodynatale .credits::before {background-image: radial-gradient(circle, rgba(94, 126, 113, 0.1) 1px, transparent 1px)}
+.bodynatale .credits-content {color: var(--nvc); text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3)}
+.bodynatale .credits a {color: var(--ncc); text-shadow: 0 0 5px rgba(94, 126, 113, 0.5)}
+.bodynatale .credits a:hover {color: var(--nvc); text-shadow: 0 0 10px var(--nvc)}
+.bodynatale .credit-separator {color: var(--nvc); text-shadow: 0 0 5px var(--nvc)}
+
+.bodynatale .hxh-trigger-icon {background: linear-gradient(135deg, var(--nvn), var(--nvs)); border-color: var(--nvc); box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5), 0 0 8px rgba(207, 146, 105, 0.3)}
+.bodynatale .hxh-trigger-icon i {color: var(--nvc)}
+.bodynatale .hxh-trigger-label {color: var(--nvc)}
+@keyframes hxh-pulse-natale {0%, 100% {box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5), 0 0 6px rgba(53, 79, 70, 0.3)} 50% {box-shadow: 0 2px 16px rgba(0, 0, 0, 0.5), 0 0 18px rgba(53, 79, 70, 0.7), 0 0 30px rgba(53, 79, 70, 0.25)}}
+.bodynatale .hxh-trigger-icon {animation-name: hxh-pulse-natale}
+.bodynatale .hxh-card {background: linear-gradient(160deg, var(--nvn) 0%, var(--nvs) 60%, var(--nvn) 100%); border-color: var(--nvc); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(94, 126, 113, 0.12)}
+.bodynatale .hxh-card::before {background-image: radial-gradient(ellipse at 80% 0%, rgba(94, 126, 113, 0.12) 0%, transparent 60%), radial-gradient(ellipse at 20% 100%, rgba(11, 72, 107, 0.2) 0%, transparent 60%)}
+.bodynatale .hxh-corners::before, .bodynatale .hxh-corners::after {border-color: var(--nvc)}
+.bodynatale .hxh-head {border-bottom-color: rgba(94, 126, 113, 0.4); background: rgba(37, 52, 47, 0.35)}
+.bodynatale .hxh-head i {color: var(--nvc)}
+.bodynatale .hxh-head-name {color: var(--ncc)}
+.bodynatale .hxh-close {color: var(--nvc)}
+.bodynatale .hxh-close:hover {color: var(--nvc)}
+.bodynatale .hxh-time-block {border-bottom-color: rgba(94, 126, 113, 0.25)}
+.bodynatale .hxh-time-label {color: var(--ncc)}
+.bodynatale .hxh-time-display {color:var(--nvc)}
+.bodynatale .hxh-date-block {border-bottom-color: rgba(94, 126, 113, 0.25); background: rgba(37, 52, 47, 0.15)}
+.bodynatale .hxh-date-block i {color: var(--nvc)}
+.bodynatale .hxh-date-text {color: var(--ncc)}
+.bodynatale .hxh-weather-label {color: var(--nvc)}
+.bodynatale .hxh-weather-temp {color: var(--ncc)}
+.bodynatale .hxh-footer-deco {border-top-color: rgba(94, 126, 113, 0.3); background: rgba(37, 52, 47, 0.2)}
+.bodynatale .hxh-footer-line {background: linear-gradient(90deg, transparent, rgba(94, 126, 113, 0.4), transparent)}
+.bodynatale .hxh-footer-diamond {color: var(--ncc)}
+.bodynatale .ico-wrapper {border: 2px solid var(--ncc)}
+.bodynatale .ico-wrapper:hover {border: 2px solid var(--nvc)}
+.bodynatale .fb-ico, .bodynatale .telegram-ico, .bodynatale .yt-ico, .bodynatale .cerca-staff-ico, .bodynatale .hatsu-ico, .bodynatale .cap-ico, .bodynatale .spam-ico, .bodynatale .esp-ico, .bodynatale .kofi-ico {background-color: var(--nvm)}
+
