@@ -130,3 +130,39 @@
 .bodynatale .tag .codebuttons:hover {border-color: var(--nvm); background-color: var(--nvm)}
 .bodynatale .ffav_tag img {border-color: var(--nvn); background: #0000}
 .bodynatale .ffav_tag {border: none!important; background: #0000!important}
+
+.bodynatale #gdr-btn {border-color: var(--nvm)}
+.bodynatale #gdr-btn:hover {border-color: var(--nvm)}
+.bodynatale #gdr-btn:hover .gdr-btn-img {filter: saturate(0.8) brightness(1.0)}
+.bodynatale #gdr-btn::before, .bodynatale #gdr-btn::after, .bodynatale #gdr-btn .gdr-btn-cbr, .bodynatale #gdr-btn .gdr-btn-cbl {border-color: var(--nvm)}
+.bodynatale #gdr-btn:hover::before, .bodynatale #gdr-btn:hover::after, .bodynatale #gdr-btn:hover .gdr-btn-cbr, .bodynatale #gdr-btn:hover .gdr-btn-cbl {border-color: var(--nvm)}
+.bodynatale .gdr-btn-img {filter: saturate(0.7) brightness(0.9) blur(2px)}
+.bodynatale .gdr-btn-grid {background-image: linear-gradient(rgba(37, 52, 47, 0.15) 1px, transparent 1px), linear-gradient(90deg, rgba(37, 52, 47, 0.15) 1px, transparent 1px)}
+.bodynatale .gdr-btn-fade {background: linear-gradient(to right, rgba(37, 52, 47, 0.75) 0%, transparent 28%, transparent 72%, rgba(37, 52, 47, 0.75) 100%), linear-gradient(to bottom, rgba(37, 52, 47, 0.25) 0%, transparent 50%)}
+.bodynatale .gdr-btn-bordino {background:rgba(37, 52, 47, 0.82)!important; border-top: 1px solid rgba(37, 52, 47, 0.4)!important}
+.bodynatale .gdr-btn-bordino span {color: var(--nvc)!important}
+.bodynatale .gdr-btn-bordino i {color: var(--nvm)!important}
+
+.bodynatale *::-webkit-scrollbar-track-piece {background: var(--nvc)}
+.bodynatale *::-webkit-scrollbar-thumb {background: var(--nvn)}
+.bodynatale::-webkit-scrollbar-track-piece {background: var(--nvc)}
+.bodynatale::-webkit-scrollbar-thumb {background: var(--nvn)}
+.bodynatale *::selection {background: var(--nvm); color:var(--ncc)}
+.bodynatale *::-moz-selection {background: var(--nvm); color:var(--ncc)}
+.bodynatale *::-webkit-selection {background: var(--nvm); color:var(--ncc)}
+
+.bodynatale .tabs a {color: var(--ncc); background: var(--nvm); border-color: var(--nvss)}
+.bodynatale .tabs a:hover, .bodynatale .tabs .current a {color: var(--nvss); background: var(--nvc); border-color: var(--nvn)}
+.bodynatale .tabs.left.no_rotate a {border-color: var(--nvss)}
+.bodynatale .tabs.right.no_rotate a {border-color: var(--nvss)}
+.bodynatale .tabs.bottom a {background: var(--nvm); border-color: var(--nvss)}
+.bodynatale .tabs.bottom a:hover {background: var(--nvc)}
+.bodynatale .tabs.left a {background: var(--nvm)}
+.bodynatale .tabs.left a:hover {background: var(--nvc)}
+.bodynatale #tab_r1 a, .bodynatale #tab_r2 a, .bodynatale #tab_r3 a, .bodynatale #tab_r4 a, .bodynatale #tab_r5 a {color: var(--nvn); background: var(--nvm); border-color: var(--nvss)}
+.bodynatale #tab_r1 a:before {color: var(--nvn)}
+.bodynatale #tab_r2 a:before {color: var(--nvn)}
+.bodynatale #tab_r3 a:before {color: var(--nvn)}
+.bodynatale #tab_r4 a:before {color: var(--nvn)}
+.bodynatale #tab_r5 a:before {color: var(--nvn)}
+.bodynatale #tab_r1 a:hover, .bodynatale #tab_r2 a:hover, .bodynatale #tab_r3 a:hover, .bodynatale #tab_r4 a:hover, .bodynatale #tab_r5 a:hover {color: var(--nvn); background: var(--nvm); border-color: var(--nvss)}
