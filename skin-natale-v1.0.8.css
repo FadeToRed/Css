@@ -369,3 +369,19 @@
 .bodynatale .credits-container .credits-list .credits-script-row .credits-author-name {color: var(--nvm)!important}
 .bodynatale .credits-container .credits-list .credits-script-row {color:var(--nvc); border-top-color: var(--nvs)!important}
 
+
+.bodynatale .annuncio .aa img {filter: var(--filnatale)!important}
+.bodynatale .annuncio.focus .aa img {filter: var(--filnatalef) !important}
+.bodynatale .importante .aa img {filter: var(--filnatale)!important} 
+.bodynatale .importante.focus .aa img {filter: var(--filnatalef) !important}
+
+.bodynatale .forum .annuncio {background: var(--nvc)}
+.bodynatale .forum .importante {background: var(--nvc)}
+.bodynatale .forum .importante:hover, .bodynatale .forum .annuncio:hover {background: var(--nvm)}
+.bodynatale .focus {color: var(--nvc)!important; background: var(--nvs) !important}
+.bodynatale .focus:nth-child(even) {color: var(--nvc)!important; background: var(--nvs) !important}
+.bodynatale .cp .focus *, .bodynatale .forum .focus *, .bodynatale .blog .focus .title2, .bodynatale .blog .focus .tags * {color: var(--nvc) !important}
+.bodynatale .focus .web a, .bodynatale .focus .desc {color: var(--nvc)!important}
+.bodynatale .focus .aa span {color: var(--nvm)!important}
+.bodynatale .aa span {color: var(--nvn)!important}
+.bodynatale .forum .yy, .bodynatale .forum .zz {color: var(--nvn)}
