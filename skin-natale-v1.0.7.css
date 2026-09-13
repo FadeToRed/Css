@@ -347,3 +347,25 @@
 .bodynatale .ico-wrapper:hover {border: 2px solid var(--nvc)}
 .bodynatale .fb-ico, .bodynatale .telegram-ico, .bodynatale .yt-ico, .bodynatale .cerca-staff-ico, .bodynatale .hatsu-ico, .bodynatale .cap-ico, .bodynatale .spam-ico, .bodynatale .esp-ico, .bodynatale .kofi-ico {background-color: var(--nvm)}
 
+
+
+.bodynatale .cs-modal-content {background: var(--nvn)!important; border-color: var(--nvm); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+.bodynatale .cs-modal-title {color:var(--nvc)}
+.bodynatale .cs-modal .cs-modal-close {color:var(--nvc)}
+.bodynatale .cs-modal-body {background:var(--nvss); border-color: var(--nvm)!important}
+.bodynatale .daily-list {background:var(--nvn); border-color: var(--nvm)}
+.bodynatale .dailyusers-member-link img {border-color: var(--nvm)!important}
+.bodynatale .du-modal .daily-list>li>div.dailyusers-member-details {color:var(--nvc)}
+.bodynatale .du-modal .daily-list>li>div.dailyusers-member-details a {color:var(--nvc)}
+.bodynatale .du-modal .daily-list>li:not(:first-child) {border-top-color: var(--nvs) !important}
+.bodynatale .cs-btn {border-color: var(--nvc)!important; background-color: var(--nvs)!important; color: var(--ncc)!important}
+.bodynatale .cs-btn:hover {border-color: var(--nvc); background-color: var(--nvn)!important; color: var(--nvc)}
+
+.bodynatale .credits-container {border-color: var(--nvm)!important}
+.bodynatale .credits-container .credits-header {background-color:var(--nvs)!important}
+.bodynatale .credits-container .credits-header a {color:var(--ncc)!important}
+.bodynatale .credits-container .credits-list {background: var(--nvn)}
+.bodynatale .credits-container .credits-list .credits-script-row .credits-script-name {color: var(--nvm)!important}
+.bodynatale .credits-container .credits-list .credits-script-row .credits-author-name {color: var(--nvm)!important}
+.bodynatale .credits-container .credits-list .credits-script-row {color:var(--nvc); border-top-color: var(--nvs)!important}
+
