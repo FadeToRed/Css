@@ -21,7 +21,7 @@
 .bodyhalloween .menu li strong {color: var(--hms)!important}
 .bodyhalloween .menu li a {color: var(--hms) !important}
 .bodyhalloween .menu li a:hover {background: var(--ham); color: var(--hacc)!important}
-.bodyhalloween .left .menu ul ul {background: var(--hac); border-color: var(--hmm)}
+.bodyhalloween .left .menu ul ul {background: var(--hac); border-color: var(--hmm);border-radius:10px}
 .bodyhalloween .menuwrap .search input {background: var(--hacc) url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/lente-cerca.png') no-repeat 55% 50%; border-color: var(--hmm)}
 .bodyhalloween .menuwrap .search input:hover {background-color: var(--hacc)}
 .bodyhalloween .menuwrap .search input:focus {background-color: var(--hacc)}
@@ -79,7 +79,6 @@
 .bodyhalloween .hb-container .hb-avatar:hover {box-shadow: 0 2px 10px rgba(59, 134, 134, 0.4)}
 .bodyhalloween .hb-container .hb-bbcode-trigger, .bodyhalloween .hb-container .hb-send-btn, .bodyhalloween .hb-container .hb-cancel-btn {background-color: var(--hacc)!important; color: var(--hmm)!important; border-color: var(--ham)!important; filter: drop-shadow(2px 4px 0 rgba(0, 0, 0, 0.3))}
 .bodyhalloween .hb-emoticons-trigger {background:transparent!important}
-.bodyhalloween .hb-emoticons-trigger::before {background-image: url('https://upload.forumfree.net/i/ff13982804/Hunter/EmojiGon.gif')}
 .bodyhalloween .hb-container .hb-quote-ref {background-color: var(--hmm)!important}
 .bodyhalloween .hb-container .hb-banner--info {background: var(--hacc)!important; border-color: var(--hmm)!important; color: var(--hmm)!important}
 .bodyhalloween .hb-container .hb-banner-content:before {color:var(--hmm)}
@@ -339,6 +338,7 @@
 .bodyhalloween .hxh-footer-line {background: linear-gradient(90deg, transparent, rgba(182, 87, 24,0.4), transparent)}
 .bodyhalloween .hxh-footer-diamond {color: var(--hacc)}
 .bodyhalloween .ico-wrapper {border: 2px solid var(--ham);}
+.bodyhalloween .ico-wrapper:hover {border: 2px solid var(--hacc)}
 .bodyhalloween .fb-ico, .bodyhalloween .telegram-ico, .bodyhalloween .yt-ico, .bodyhalloween .cerca-staff-ico, .bodyhalloween .hatsu-ico, .bodyhalloween .cap-ico, .bodyhalloween .spam-ico, .bodyhalloween .esp-ico, .bodyhalloween .kofi-ico {background-color: var(--hacc);}
 
 .bodyhalloween .cs-modal-content {background: var(--hms)!important; border-color: var(--ham); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
