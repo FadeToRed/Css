@@ -164,5 +164,103 @@
 .bodynatale #tab_r2 a:before {color: var(--nvn)}
 .bodynatale #tab_r3 a:before {color: var(--nvn)}
 .bodynatale #tab_r4 a:before {color: var(--nvn)}
+
+/* Container sezioni */
+.bodynatale #c65073496, .bodynatale #c65073567, .bodynatale #c65114234, .bodynatale #c65073571 {background:var(--nvs)}
+
+/* .zz di tutti i container */
+.bodynatale #c65073496 .zz, .bodynatale #c65073567 .zz, .bodynatale #c65114234 .zz, .bodynatale #c65073571 .zz {background: var(--nvss)}
+
+/* link .zz di tutti i container */
+.bodynatale #c65073496 .zz a, .bodynatale #c65073567 .zz a, .bodynatale #c65114234 .zz a, .bodynatale #c65073571 .zz a {color: var(--ncc)}
+
+/* .when(con::before "del") — Benvenuti, Stelle Cadenti, Off-topic&Capitoli */
+.bodynatale #f65073496 .when, .bodynatale #f65112406 .when,
+.bodynatale #f65114234 .when, .bodynatale #f65114235 .when, .bodynatale #f65114237 .when,
+.bodynatale #f65073571 .when, .bodynatale #f65073572 .when, .bodynatale #f65111597 .when {color:var(--ncc)}
+.bodynatale #f65073496 .when::before, .bodynatale #f65112406 .when::before,
+.bodynatale #f65114234 .when::before, .bodynatale #f65114235 .when::before, .bodynatale #f65114237 .when::before,
+.bodynatale #f65073571 .when::before, .bodynatale #f65073572 .when::before, .bodynatale #f65111597 .when::before {color:var(--ncc)!important}
+
+/* .web a "spenti" su nero — continenti, resto del mondo, mercante/oltre */
+.bodynatale #c65073567 .web a,
+.bodynatale #f65114234 .web a, .bodynatale #f65114235 .web a,
+.bodynatale #f65114236 .web a,
+.bodynatale #f65114237 .web a, .bodynatale #f65114238 .web a,
+.bodynatale #f65118748 .web a, .bodynatale #f65118788 .web a {color:var(--bianco); background:var(--nero)}
+
+.bodynatale #c65073496 .who span, .bodynatale #c65073567 .who span, .bodynatale #c65114234 .who span, .bodynatale #c65073571 .who span {color: var(--ncc)}
+/* .web a in hover — continenti + resto del mondo */
+.bodynatale #c65073567 .big_list >:hover .web a, .bodynatale #c65114234 .big_list >:hover .web a {background: var(--nvm); color: var(--ncc)}
+
+/* Bordo cinque di tutte le sezioni-continente/mondo */
+.bodynatale #f65073567, .bodynatale #f65073568, .bodynatale #f65073569,
+.bodynatale #f65114231, .bodynatale #f65114232, .bodynatale #f65114233,
+.bodynatale #f65114234, .bodynatale #f65114235, .bodynatale #f65114236,
+.bodynatale #f65114237, .bodynatale #f65114238,
+.bodynatale #f65118748, .bodynatale #f65118788 {border-color: var(--nvm)}
+
+/* Tutti i link-bottone delle sezioni(reg, sch, nar, sol, yor, azi, ket, van, tor, merc, au, ot, cap, spm) */
+.bodynatale .reg-button a, .bodynatale .sch-button a,
+.bodynatale .nar-button a, .bodynatale .sol-button a, .bodynatale .yor-button a,
+.bodynatale .azi-button a, .bodynatale .ket-button a, .bodynatale .van-button a,
+.bodynatale .tor-button a, .bodynatale .merc-button a, .bodynatale .au-button a,
+.bodynatale .ot-button a, .bodynatale .cap-button a, .bodynatale .spm-button a {color:var(--nvc)}
+
+/* Tutti i pulsanti pieni delle sezioni — background sette */
+.bodynatale .r-forum, .bodynatale .r-gdr,
+.bodynatale .s-app, .bodynatale .s-con, .bodynatale .s-ina, .bodynatale .s-npc,
+.bodynatale .nar-1, .bodynatale .nar-2, .bodynatale .nar-3, .bodynatale .nar-4,
+.bodynatale .sol-1, .bodynatale .sol-2, .bodynatale .sol-3,
+.bodynatale .yor-1, .bodynatale .yor-2, .bodynatale .yor-3, .bodynatale .yor-4,
+.bodynatale .azi-1, .bodynatale .azi-2, .bodynatale .azi-3,
+.bodynatale .ket-1, .bodynatale .ket-2,
+.bodynatale .van-1, .bodynatale .van-2,
+.bodynatale .tor-1, .bodynatale .tor-2, .bodynatale .tor-3,
+.bodynatale .merc-1, .bodynatale .merc-2, .bodynatale .merc-3,
+.bodynatale .au-1, .bodynatale .au-2,
+.bodynatale .ot-nen, .bodynatale .ot-hunter,
+.bodynatale .cap-pre, .bodynatale .cap-trad,
+.bodynatale .spm-reg, .bodynatale .spm-ric, .bodynatale .spm-aff, .bodynatale .spm-gem {background:var(--nvs)}
+
+/* Tutti i pulsanti pieni delle sezioni — hover background sei */
+.bodynatale .r-forum:hover, .bodynatale .r-gdr:hover,
+.bodynatale .s-app:hover, .bodynatale .s-con:hover, .bodynatale .s-ina:hover, .bodynatale .s-npc:hover,
+.bodynatale .nar-1:hover, .bodynatale .nar-2:hover, .bodynatale .nar-3:hover, .bodynatale .nar-4:hover,
+.bodynatale .sol-1:hover, .bodynatale .sol-2:hover, .bodynatale .sol-3:hover,
+.bodynatale .yor-1:hover, .bodynatale .yor-2:hover, .bodynatale .yor-3:hover, .bodynatale .yor-4:hover,
+.bodynatale .azi-1:hover, .bodynatale .azi-2:hover, .bodynatale .azi-3:hover,
+.bodynatale .ket-1:hover, .bodynatale .ket-2:hover,
+.bodynatale .van-1:hover, .bodynatale .van-2:hover,
+.bodynatale .tor-1:hover, .bodynatale .tor-2:hover, .bodynatale .tor-3:hover,
+.bodynatale .merc-1:hover, .bodynatale .merc-2:hover, .bodynatale .merc-3:hover,
+.bodynatale .au-1:hover, .bodynatale .au-2:hover,
+.bodynatale .ot-nen:hover, .bodynatale .ot-hunter:hover,
+.bodynatale .cap-pre:hover, .bodynatale .cap-trad:hover,
+.bodynatale .spm-reg:hover, .bodynatale .spm-ric:hover, .bodynatale .spm-aff:hover, .bodynatale .spm-gem:hover {background: var(--nvss)}
+
+.bodynatale .board .skin_tbl.box_minus, .bodynatale .board .skin_tbl.box_plus, .bodynatale .stats .skin_tbl, .bodynatale .forum .skin_tbl, .bodynatale .fast.send .skin_tbl {background: transparent}
+.bodynatale .mback {background-color: var(--nvs)}
+.bodynatale .mtitle {color: var(--nvc); background: transparent !important}
+.bodynatale .title, .bodynatale .darkbar {background: var(--nvs) !important; color: var(--ncc)}
+.bodynatale .list:not(.send .list) > *, .bodynatale table.mainbg tr, .bodynatale .profile .skin_tbl {background: var(--nvm)}
+.bodynatale .list:not(.send .list) > *:nth-child(even), .bodynatale table.mainbg tr:nth-child(even) {background: var(--nvm)}
+.bodynatale .big_list > * {background: var(--nvm)}
+.bodynatale .big_list > *:nth-child(even) {background: var(--nvm)}
+.bodynatale .big_list > *:hover {background: var(--nvm)}
+.bodynatale .big_list > *:nth-child(even):hover {background: var(--nvm)}
+.bodynatale .web a {color: var(--nvss)}
+.bodynatale .big_list > *:hover .web a {color:var(--nvn)}
+.bodynatale .board .topics {background: var(--nvss); color: var(--nvc)!important}
+.bodynatale .board .replies {background: var(--nvss); color: var(--nvc)!important}
+
+.bodynatale .desc {color: var(--nvn)}
+.bodynatale .mods {color: var(--nvn)}
+.bodynatale .mods a {color: var(--nvn)}
+.bodynatale .subs {color: var(--nvn)}
+.bodynatale .subs a {color: var(--nvn)}
+.bodynatale #f_up i {color:var(--nvc)!important}
+
+
 .bodynatale #tab_r5 a:before {color: var(--nvn)}
 .bodynatale #tab_r1 a:hover, .bodynatale #tab_r2 a:hover, .bodynatale #tab_r3 a:hover, .bodynatale #tab_r4 a:hover, .bodynatale #tab_r5 a:hover {color: var(--nvn); background: var(--nvm); border-color: var(--nvss)}
