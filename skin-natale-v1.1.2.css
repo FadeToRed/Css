@@ -482,3 +482,69 @@
 .bodynatale#msg .u_group, .bodynatale#msg .u_posts, .bodynatale#msg .u_joined {background:var(--nvm); border-bottom-color: var(--nvn); color: var(--nvn)}
 .bodynatale#msg .mini_buttons a {color: var(--nvn)}
 .bodynatale#msg .sunbar {background-color:var(--nvm)!important; color:var(--nvn)!important}
+
+.bodynatale .profile .tabs a {color: transparent}
+.bodynatale .profile .tabs a:before {color: var(--nvn)}
+.bodynatale .profile .skin_tbl {background: transparent!important}
+.bodynatale .profile .avatar img {border-color: var(--nvm); background-color:var(--nvn)}
+.bodynatale .profile .avatar {filter: drop-shadow(2px 2px 0 rgba(0, 0, 0, 0.3))}
+.bodynatale .box_anonimo .profile .avatar::after {border-color: var(--nvs); background:var(--anonimo)}
+.bodynatale .box_online .profile .avatar::after {border-color: var(--nvs); background: var(--online)}
+.bodynatale .box_offline .profile .avatar::after {border-color: var(--nvs); background: var(--offline)}
+.bodynatale .profile .right {border-color: var(--nvn); background-color: var(--nvc); color: var(--hms); box-shadow: 4px 3px 0 rgba(0, 0, 0, 0.3)}
+.bodynatale .profile .nick {color: var(--nvc); text-shadow: none}
+.bodynatale .profile .left {background: var(--nvn); box-shadow: 4px 3px 0 rgba(0, 0, 0, 0.3)}
+.bodynatale .profile .left dt {color: #FFF!important; background: #282828}
+.bodynatale .profile .left > dl {background: #FFF; border-color: #282828; color: #282828}
+.bodynatale .profile .left .mini_buttons a {color: var(--nvn); background: var(--nvm)}
+.bodynatale .profile .list {border-color: var(--nvs)}
+.bodynatale .profile .right dl {background:var(--nvm)!important; color: var(--nvn)}
+.bodynatale .profile .right dl a {color: var(--nvn)}
+.bodynatale .profile .right dl:hover {background:var(--nvs)!important; color:var(--ncc)}
+.bodynatale .profile .right dl:hover a {color:var(--ncc)}
+.bodynatale .profile dl.rep_pos dd a, .bodynatale .profile dl.rep_neg dd a {color:var(--nvn)!important}
+.bodynatale .profile .mysocials-list {background-color: var(--nvm)!important}
+.bodynatale .profile .mypets-list {background-color: var(--nvm)!important}
+
+/* h3 dei due container */
+.bodynatale #gdr-tab-content h3, .bodynatale #staff-tasks-container h3 {color:var(--nvn); border-bottom-color:var(--nvn)}
+/* sezioni verdi con bordo teal — gdr-section, tasks-section, add-task-form */
+.bodynatale .gdr-section, .bodynatale .tasks-section {background:var(--nvn); border-left-color:var(--nvs)}
+.bodynatale .add-task-form {background:var(--nvn); border-left-color:var(--nvs)}
+.bodynatale .tasks-section.completed-section {background:var(--nvn); border-left-color:var(--nvs)}
+/* h4 blu delle sezioni */
+.bodynatale .gdr-section h4, .bodynatale .tasks-section h4, .bodynatale .add-task-form h4 {color:var(--nvc)}
+/* contatori */
+.bodynatale .gdr-section h4 .count, .bodynatale .tasks-section h4 .count {color:var(--ncc)}
+/* righe lista — sheets-list li, task-item */
+.bodynatale .sheets-list li {border-bottom-color:var(--nvn); background:var(--nvm)}
+.bodynatale .task-item {background:var(--nvm)}
+.bodynatale .sheets-list li:hover {background:var(--nvc); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)}
+.bodynatale .task-item:hover {background:var(--nvc)}
+/* titoli scuri — sheet-title, task-title */
+.bodynatale .sheet-title, .bodynatale .task-title {color:var(--nvn)}
+.bodynatale .sheet-title:hover {color:var(--nvn)}
+/* tag date/meta su verde chiaro — sheet-dates span, task-assigned */
+.bodynatale .sheet-dates span, .bodynatale .task-assigned {color:var(--nvs); background:var(--ncc)}
+/* tag su teal con testo bianco — date-modified, task-date */
+.bodynatale .date-modified, .bodynatale .task-date {background:var(--ncc)!important; color:var(--nvn)}
+.bodynatale .date-created {background:var(--ncc)!important; color: var(--nvn)}
+/* empty / loading condivisi */
+.bodynatale .empty {color:var(--ncc)}
+.bodynatale .loading {color:var(--ncc)}
+/* progress gdr */
+.bodynatale #gdr-progress {background:var(--ncc); color: var(--nvn)}
+/* input form task */
+.bodynatale .add-task-form input {border-color:var(--nvm)}
+.bodynatale .add-task-form input:focus {border-color:var(--nvm)}
+/* pulsante form task */
+.bodynatale .add-task-form button {background:var(--nvm); color:var(--nvn)}
+.bodynatale .add-task-form button:hover {background:var(--nvc)}
+/* pulsante elimina */
+.bodynatale .task-delete {background:var(--nvs); color: var(--nvc)}
+.bodynatale .task-delete:hover {background:var(--nvss)}
+
+.bodynatale #profile-tracker #tracked-list li.tracked-entity {background:var(--nvs); color:var(--nvc)}
+.bodynatale #profile-tracker #tracked-list li.tracked-entity a {color:var(--nvc)}
+.bodynatale #profile-tracker #tracked-list li.tracked-entity:hover {background:var(--nvss)}
+.bodynatale #profile-tracker li.title {color: var(--nvc)}
