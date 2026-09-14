@@ -1,3 +1,5 @@
+.bodynatale {background-color: var(--nvs); background-image:url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/Sfondo-Natale.png'); color: var(--nvn); background-position: top}
+.bodynatale a {color: var(--nvss)}
 .bodynatale .nav {color:var(--nvs)}
 .bodynatale .nav a {color:var(--nvm)}
 .bodynatale .nav span {color:var(--nvs)!important}
@@ -548,3 +550,66 @@
 .bodynatale #profile-tracker #tracked-list li.tracked-entity a {color:var(--nvc)}
 .bodynatale #profile-tracker #tracked-list li.tracked-entity:hover {background:var(--nvss)}
 .bodynatale #profile-tracker li.title {color: var(--nvc)}
+
+
+.bodynatale .st-badge-1 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/1n.png')}
+.bodynatale .st-badge-2 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/2n.png')}
+.bodynatale .st-badge-3 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/3n.png')}
+.bodynatale .st-badge-4 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/4n.png')}
+.bodynatale .st-badge-5 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/5n.png')}
+.bodynatale .st-badge-6 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/6n.png')}
+.bodynatale .st-badge-7 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/7n.png')}
+.bodynatale .st-badge-8 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/8n.png')}
+.bodynatale .st-badge-9 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/9n.png')}
+.bodynatale .st-badge-10 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/10n.png')}
+
+.bodynatale .pages2 a:link, .bodynatale .pages2 a:visited {color: var(--ncc) !important; text-shadow: none !important; background: var(--nvss); border-color: var(--nvss)}
+.bodynatale .pages2 a:hover {background:var(--nvn); color: var(--nvc) !important; border-color: var(--nvn)}
+.bodynatale .pages li a, .bodynatale .pages .current {color: var(--ncc); background: var(--nrmc); border-color: var(--nrmc)}
+.bodynatale .pages li a:hover {background: var(--nrs); border-color: var(--nrs)}
+.bodynatale .pages .current {color: var(--ncc); background: var(--nrmc); border-color: var(--nrmc)}
+.bodynatale .pages .jump a, .bodynatale .pages .lastpost a {color: var(--ncc); background: var(--nrmc); border-color: var(--nrmc)}
+.bodynatale .pages .jump a:hover, .bodynatale .pages .lastpost a:hover {color: var(--ncc); background: var(--nrmc); border-color: var(--nrmc)}
+.bodynatale .pages .first a, .bodynatale .pages .last a {background: var(--nrmc); border-color: var(--nrmc)}
+.bodynatale .pages .first a:hover, .bodynatale .pages .last a:hover {background: var(--nrmc); border-color: var(--nrmc)}
+
+.bodynatale .codebuttons, .bodynatale .forminput, .bodynatale .textinput {color: var(--nvs); background: var(--ncc); border-color: var(--nvm); filter: drop-shadow(2px 2px 0 rgba(0, 0, 0, 0.3)); box-shadow: inset 0 1px 0 #FFF}
+.bodynatale .textinput:focus, .bodynatale .forminput[type=text]:focus, .bodynatale .forminput[type=password]:focus {border-color: var(--nvm); box-shadow: 0 0 8px var(--hac)}
+.bodynatale .codebuttons:hover {background: var(--ncc); border-color: var(--nvm)}
+.bodynatale .sunbar .forminput {color: var(--nvs); background: var(--ncc); border-color: var(--nvs); box-shadow: none}
+.bodynatale .sunbar .forminput:hover {background: var(--ncc); border-color: var(--nvs)}
+
+.bodynatale .navsub .forminput {color: var(--nvs); background: var(--ncc); border-color: var(--nvm)}
+.bodynatale .navsub .forminput:hover, .bodynatale .navsub .forminput:focus {background: var(--ncc)}
+.bodynatale .title .forminput {color: var(--nvs); background: var(--ncc); border-color: var(--nvm)}
+.bodynatale .title .forminput:hover {background: var(--ncc)}
+.bodynatale .title input.forminput {color: var(--nvs); background:var(--ncc); border-color: var(--nvm)}
+.bodynatale .title input.forminput:hover {background: var(--ncc)}
+.bodynatale .darkbar .forminput, .bodynatale .fast.send .forminput {color: var(--nvs); background: var(--ncc); border-color: var(--nvm)}
+.bodynatale .darkbar .forminput:hover, .bodynatale .fast.send .forminput:hover {background: var(--nvm); color:var(--ncc)}
+.bodynatale .darkbar .forminput {border-color: var(--nvm) !important}
+.bodynatale .darkbar input.forminput, .bodynatale .fast.send input.forminput {background: var(--ncc); box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3)}
+.bodynatale .darkbar button.forminput {color: var(--nvs); background: var(--ncc); box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3)}
+.bodynatale .darkbar button.forminput:hover {color: var(--nvs); background: var(--ncc)}
+.bodynatale .buttons span {color: var(--ncc); background: var(--nvm); border-color: var(--nvm); filter: drop-shadow(2px 1px 0 rgba(0, 0, 0, 0.3))}
+.bodynatale .buttons span:hover {background: var(--nvs); border-color: var(--nvs)}
+body.bodynatale {--sette: var(--nvn)}
+
+.bodynatale .ff-modal {background: var(--nvn); border-color: var(--nvm); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3); color:var(--nvc)}
+.bodynatale .ff-modal .info {background:var(--ncc)!important; color:var(--nvn)!important; border-color: var(--nvm); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+.bodynatale .ff-modal .forminput, .bodynatale .ff-modal .codebuttons {border-color: var(--nvm)!important}
+.bodynatale summary {background:var(--nvm)!important; border-color: var(--nvn); filter: drop-shadow(3px 2px 0 rgba(0, 0, 0, 0.3)); color:var(--nvn); list-style-image: url(https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/newsN.gif)}
+.bodynatale summary::-webkit-details-marker {background: url(https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/newsN.gif); color: transparent}
+.bodynatale details[open] summary {background: var(--nvc)}
+.bodynatale details[open] {background:var(--nvn); border-color: var(--nvn); filter: drop-shadow(3px 2px 0 rgba(0, 0, 0, 0.3)); color: var(--nvc)}
+.bodynatale .rego-testo {color: var(--nvn)}
+.bodynatale .rego-testo a {color: var(--nvm)!important; font-weight:bold}
+.bodynatale .rego {border-color: var(--nvm); background: var(--ncc)}
+.bodynatale .rego:before {color: var(--nvc)}
+
+.bodynatale .keyword_wrapper {background-color: var(--ham) !important; box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+.bodynatale .keyword_inner {background:var(--hasc); color: var(--hms)}
+.bodynatale .keyword_inner h3 {background: var(--hms) !important; color: var(--hacc); border-color: var(--hms)}
+.bodynatale #gr-modal {color:var(--hms)!important}
+.bodynatale .skin-personalizer-button::after {background-color:var(--hacc)}
+
