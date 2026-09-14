@@ -417,3 +417,53 @@
 .bodynatale .bar div {background: var(--nvm)}
 .bodynatale .max .bar {background: var(--nvn); color:var(--ncc)!important}
 .bodynatale .max .bar div {background: var(--nvs)}
+
+.bodynatale .topic:not(.comments) .post {background: var(--nvn)}
+.bodynatale .topic:not(.comments) .post .title2 {background: linear-gradient(154deg, var(--ncc), var(--nvm))}
+.bodynatale .topic:not(.comments) .color {border-color: var(--nvm); background: var(--ncc)}
+.bodynatale .topic:not(.comments, .cp) .color a {color: var(--nvn)}
+.bodynatale .topic:not(.comments, .cp) .color a:hover {color: var(--nvs)}
+.bodynatale .topic:not(.comments, .cp) .color hr {border-top-color: var(--nvn)}
+.bodynatale .topic:not(.comments, .cp) .edit {color: rgba(0, 0, 0, .25)}
+.bodynatale .topic:not(.comments, .cp) .fancytop {color:var(--nvs)}
+.bodynatale .topic:not(.comments, .cp) .fancyborder {border-color: var(--nvs) !important; background: var(--nvc); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3); color:var(--nvs)}
+.bodynatale .topic:not(.comments, .cp) .fancyborder a {color:var(--nvss)}
+.bodynatale .topic:not(.comments, .cp) .bottomborder {border-bottom-color: var(--nvn)}
+.bodynatale .topic:not(.comments, .cp) .signature {background: var(--nvc); border-color: var(--nvm); box-shadow: 1px 4px 0 rgba(0, 0, 0, 0.3)}
+.bodynatale .topic:not(.comments, .cp) .post .nick {color: rgba(0, 0, 0, .45)}
+.bodynatale .topic:not(.comments, .cp) .details a {color: var(--nvn)}
+.bodynatale .topic:not(.comments, .cp) .post .details {background-image:none; background-color:var(--nvs)}
+.bodynatale .topic:not(.comments, .cp) .post .avatar img {border-color: var(--nvm); background: var(--nvs)}
+.bodynatale .color mark, .bodynatale #markdiv mark {background: var(--nvs); color: var(--nvc)}
+.bodynatale .topic:not(.comments, .cp) .details > dl {color: var(--nvn)}
+.bodynatale .topic .u_rank i {color:var(--nvn)!important}
+.bodynatale .topic:not(.comments, .cp) .u_group, .bodynatale .topic:not(.comments, .cp) .u_posts, .bodynatale .topic:not(.comments, .cp) .u_reputation {background:var(--nvm); border-bottom-color: var(--nvs); color: var(--nvn)}
+.bodynatale dl.rep_pos dd a {color: var(--nvn)!important}
+.bodynatale .topic:not(.comments, .cp) .details p, .bodynatale .topic:not(.comments, .cp) .u_status {background: var(--nvm); color: var(--nvn)}
+.bodynatale .post.focus {background: var(--nvm)!important; color:var(--nvn)!important}
+
+.bodynatale .quoteentry img {box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)!important; border-color: var(--nvss)!important; background: var(--nvm)!important}
+.bodynatale [class~=code] li {background-color:rgba(0, 0, 0, .1)}
+.bodynatale [class~=code] li:nth-child(2n) {background-color:rgba(0, 0, 0, .2)}
+.bodynatale .select_code {color:var(--nvc)!important}
+.bodynatale .select_code:before {color: var(--nvc)}
+.bodynatale .select_code:after {color: var(--nvc)}
+.bodynatale .quote, .bodynatale .spoiler .code {color: var(--nvn); background: var(--nvm); border-color: var(--nvs); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+.bodynatale .code {color: #999; background: #505050; border-color: var(--nvn); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+.bodynatale .quote .quote, .bodynatale .spoiler .quote, .bodynatale .quote .spoiler .code {color: var(--nvn); background: var(--nvc)}
+.bodynatale .code .code {color: #999; background: #505050}
+.bodynatale .quote .quote .quote, .bodynatale .quote .quote .code, .bodynatale .spoiler .quote .quote, .bodynatale .spoiler .quote .code, .bodynatale .quote .spoiler .quote, .bodynatale .quote .code .code {color: var(--nvn); background: var(--nvm)}
+.bodynatale .quote .code .code, .bodynatale .spoiler .quote .code, .bodynatale .quote .quote .code {color: #999; background: #505050}
+.bodynatale .quote .quote .quote .quote, .bodynatale .quote .quote .quote .code, .bodynatale .spoiler .quote .quote .quote, .bodynatale .spoiler .quote .quote .code, .bodynatale .quote .spoiler .quote .quote, .bodynatale .quote .spoiler .quote .code, .bodynatale .quote .quote .spoiler .quote, .bodynatale .quote .quote .code .code, .bodynatale .quote .quote .quote .code {color: var(--nvn); background: var(--nvc)}
+.bodynatale .quote .quote .quote .code, .bodynatale .quote .quote .code .code, .bodynatale .quote .spoiler .quote .code, .bodynatale .spoiler .quote .quote .code, .bodynatale .quote .quote .quote .code {color: #999; background: #505050}
+.bodynatale .quote_top, .bodynatale .code_top {color: var(--nvc); background-color: var(--nvn); border-color: var(--nvs); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+.bodynatale .quote_top a, .bodynatale .code_top a {color: var(--nvc)!important}
+.bodynatale .quote_top a:hover, .bodynatale .code_top a:hover {color: var(--nvm)!important}
+.bodynatale .spoiler .code_top:before {color: var(--nvc)}
+.bodynatale .code_top:before {color: var(--nvc)}
+.bodynatale .code_top:after {color: #CCC}
+.bodynatale .quote .quote_top:before, .bodynatale .quote .code_top:before, .bodynatale .quote .code_top:after, .bodynatale .spoiler .quote_top:before, .bodynatale .code .code_top:before, .bodynatale .code .code_top:after {color: var(--nvc)}
+.bodynatale .quote .quote .quote_top:before, .bodynatale .quote .quote .code_top:before, .bodynatale .quote .quote .code_top:after, .bodynatale .spoiler .quote .quote_top:before, .bodynatale .spoiler .quote .code_top:before, .bodynatale .spoiler .quote .code_top:after, .bodynatale .quote .spoiler .quote_top:before, .bodynatale .quote .code .code_top:before, .bodynatale .quote .code .code_top:after {color: var(--nvc)}
+.bodynatale .quote .quote .quote .quote_top:before, .bodynatale .quote .quote .quote .code_top:before, .bodynatale .quote .quote .quote .code_top:after, .bodynatale .spoiler .quote .quote .quote_top:before, .bodynatale .spoiler .quote .quote .code_top:before, .bodynatale .spoiler .quote .quote .code_top:after, .bodynatale .quote .spoiler .quote .quote_top:before, .bodynatale .quote .spoiler .quote .code_top:before, .bodynatale .quote .spoiler .quote .code_top:after, .bodynatale .quote .quote .spoiler .quote_top:before, .bodynatale .quote .quote .code .code_top:before, .bodynatale .quote .quote .code .code_top:after, .bodynatale .quote .quote .quote .code_top:before, .bodynatale .quote .quote .quote .code_top:after {color: var(--nvc)}
+
+
