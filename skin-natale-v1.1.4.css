@@ -613,3 +613,33 @@ body.bodynatale {--sette: var(--nvn)}
 .bodynatale #gr-modal {color:var(--hms)!important}
 .bodynatale .skin-personalizer-button::after {background-color:var(--hacc)}
 
+
+
+.bodynatale #notifications-modal .modal-title {color: var(--nvc)}
+.bodynatale #notifications-modal .avatar {border-color: var(--nvss); background: var(--nvss)}
+.bodynatale #notifications-modal .notification-image .notification-type {border-color: var(--nvss); background-color: var(--nvss)}
+.bodynatale #notifications-modal .notification-row .notification-status {background-color: #0000}
+.bodynatale #notifications-modal .notification-container:not(.readed) .notification-row, .bodynatale #notifications-empty {background: var(--ncc); border-color: var(--nvss)}
+.bodynatale #notifications-modal .notification-container:not(.readed) .notification-row:hover {background: var(--nvc); border-color: var(--nvss)}
+.bodynatale #notifications-modal .notification-row {background: var(--nvc); border-color: var(--nvss); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+.bodynatale #notifications-modal .notification-row:hover {background: var(--nvm)}
+.bodynatale #notifications-modal .notification-row .notification-text {color: var(--nvn)!important}
+.bodynatale .notification-container .error {color: #453F4E}
+.bodynatale #notifications-empty {box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+.bodynatale #notifications-modal .notification-row .dot {background: transparent}
+.bodynatale #notifications-modal .notification-container:not(.readed) .dot {background-color: var(--nvn)}
+.bodynatale #notifications-modal .notification-container:not(.readed) .notification-date, .bodynatale #notifications-empty {color: var(--nvn)}
+.bodynatale #notifications-links a {color: var(--nvc)}
+.bodynatale #notifications-modal .notification-container.readed .notification-text, .bodynatale #notifications-modal .notification-container.readed .notification-date {color: var(--nvn)!important}
+.bodynatale .notification-container .dropbtn {background: var(--nvn); box-shadow: none}
+.bodynatale .notification-container .dropbtn:hover {background-color: var(--nvss)}
+.bodynatale .notification-container .dropbtn:before {background: var(--ncc); box-shadow: 7px 0 var(--ncc), 15px 0 var(--ncc)}
+.bodynatale .notification-container .dropdown-content a {background: var(--nvss); color: var(--nvc)}
+.bodynatale .notification-container .dropdown-content a:hover {background-color: var(--nvn)}
+.bodynatale #notifications-modal .plus-button {background: var(--nvss); border-color: var(--nvm); box-shadow:none}
+.bodynatale #notifications-mode button {background: var(--nrm); border-color: var(--nrm); color: var(--ncc); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+.bodynatale #notifications-mode button.active, .bodynatale #notifications-mode button[data-mode]:hover {background: var(--nrs); color: var(--hasc)}
+.bodynatale #notifications-option-dropdown {box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)!important}
+.bodynatale .tippy-box {background-color: var(--nvc) !important; border-color: var(--nvs)}
+.bodynatale .tippy-box>.tippy-arrow:before {border-left-color: var(--nvs) !important}
+.bodynatale .tippy-box>.tippy-arrow:before {border-bottom-color: transparent !important}
