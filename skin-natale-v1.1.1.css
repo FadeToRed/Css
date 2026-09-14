@@ -466,4 +466,19 @@
 .bodynatale .quote .quote .quote_top:before, .bodynatale .quote .quote .code_top:before, .bodynatale .quote .quote .code_top:after, .bodynatale .spoiler .quote .quote_top:before, .bodynatale .spoiler .quote .code_top:before, .bodynatale .spoiler .quote .code_top:after, .bodynatale .quote .spoiler .quote_top:before, .bodynatale .quote .code .code_top:before, .bodynatale .quote .code .code_top:after {color: var(--nvc)}
 .bodynatale .quote .quote .quote .quote_top:before, .bodynatale .quote .quote .quote .code_top:before, .bodynatale .quote .quote .quote .code_top:after, .bodynatale .spoiler .quote .quote .quote_top:before, .bodynatale .spoiler .quote .quote .code_top:before, .bodynatale .spoiler .quote .quote .code_top:after, .bodynatale .quote .spoiler .quote .quote_top:before, .bodynatale .quote .spoiler .quote .code_top:before, .bodynatale .quote .spoiler .quote .code_top:after, .bodynatale .quote .quote .spoiler .quote_top:before, .bodynatale .quote .quote .code .code_top:before, .bodynatale .quote .quote .code .code_top:after, .bodynatale .quote .quote .quote .code_top:before, .bodynatale .quote .quote .quote .code_top:after {color: var(--nvc)}
 
+.bodynatale .title a {color:var(--nvc)}
+.bodynatale .inter-topics-tips-box a {color: var(--ncs)!important}
+.bodynatale .inter-topics-tips-box {color:var(--ncc)!important}
+.bodynatale li#inter-topics-tips-box {background: var(--nrm) !important}
 
+.bodynatale#msg .post {border-color: var(--nvn)!important; background-color:var(--nvn)}
+.bodynatale#msg .post .title2 {background: linear-gradient(154deg, var(--ncc), var(--nvm))}
+.bodynatale#msg .post .color {background:var(--ncc); border-color: var(--nvm)!important}
+.bodynatale#msg .color {color: var(--nvn)}
+.bodynatale#msg .post .right {color: var(--nvn)}
+.bodynatale#msg .post .nick {color:var(--nvn)}
+.bodynatale#msg .post .nick a {color: var(--nvn)}
+.bodynatale#msg .details .avatar img {border-color: var(--nvm); background-color:var(--nvn); box-shadow: 2px 3px 0 rgba(0, 0, 0, 0.3)}
+.bodynatale#msg .u_group, .bodynatale#msg .u_posts, .bodynatale#msg .u_joined {background:var(--nvm); border-bottom-color: var(--nvn); color: var(--nvn)}
+.bodynatale#msg .mini_buttons a {color: var(--nvn)}
+.bodynatale#msg .sunbar {background-color:var(--nvm)!important; color:var(--nvn)!important}
