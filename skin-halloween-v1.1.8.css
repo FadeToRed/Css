@@ -549,7 +549,7 @@
 .bodyhalloween .st-badge-7 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/7h.png')}
 .bodyhalloween .st-badge-8 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/8h.png')}
 .bodyhalloween .st-badge-9 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/9h.png')}
-.bodyhalloween .st-badge-10 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/10h.png')}
+.bodyhalloween .st-badge-10 img {content: url('https://chroniclesofabrokensky.altervista.org/wp-content/uploads/2026/09/10h2.png')}
 
 .bodyhalloween .pages2 a:link, .bodyhalloween .pages2 a:visited {color: var(--hasc) !important; text-shadow: none !important; background: var(--hmm); border-color: var(--hmm)}
 .bodyhalloween .pages2 a:hover {background:var(--hms); color: var(--hacc) !important; border-color: var(--hms)}
@@ -600,3 +600,34 @@
 .bodyhalloween .keyword_inner h3 {background: var(--hms) !important; color: var(--hacc); border-color: var(--hms)}
 .bodyhalloween #gr-modal {color:var(--hms)!important}
 .bodyhalloween .skin-personalizer-button::after {background-color:var(--hacc)}
+
+
+.bodyhalloween #notifications-modal .modal-title {color: var(--ham)}
+.bodyhalloween #notifications-modal .avatar {border-color: var(--ham); background: var(--ham)}
+.bodyhalloween #notifications-modal .notification-image .notification-type {border-color: var(--ham); background-color: var(--ham)}
+.bodyhalloween #notifications-modal .notification-row .notification-status {background-color: #0000}
+.bodyhalloween #notifications-modal .notification-container:not(.readed) .notification-row, .bodyhalloween #notifications-empty {background: var(--hasc); border-color: var(--ham)}
+.bodyhalloween #notifications-modal .notification-container:not(.readed) .notification-row:hover {background: var(--hamc); border-color: var(--ham)}
+.bodyhalloween #notifications-modal .notification-row {background: var(--hamc); border-color: var(--ham); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+.bodyhalloween #notifications-modal .notification-row:hover {background: var(--hasc)}
+.bodyhalloween #notifications-modal .notification-row .notification-text {color: var(--hms)!important}
+.bodyhalloween .notification-container .error {color: #453F4E}
+.bodyhalloween #notifications-empty {box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+.bodyhalloween #notifications-modal .notification-row .dot {background: transparent}
+.bodyhalloween #notifications-modal .notification-container:not(.readed) .dot {background-color: var(--hms)}
+.bodyhalloween #notifications-modal .notification-container:not(.readed) .notification-date, .bodyhalloween #notifications-empty {color: var(--hms)}
+.bodyhalloween #notifications-links a {color: var(--ham)}
+.bodyhalloween #notifications-modal .notification-container.readed .notification-text, .bodyhalloween #notifications-modal .notification-container.readed .notification-date {color: var(--hms)!important}
+.bodyhalloween .notification-container .dropbtn {background: var(--hms); box-shadow: none}
+.bodyhalloween .notification-container .dropbtn:hover {background-color: var(--hmm)}
+.bodyhalloween .notification-container .dropbtn:before {background: var(--hasc); box-shadow: 7px 0 var(--hasc), 15px 0 var(--hasc)}
+.bodyhalloween .notification-container .dropdown-content a {background: var(--hms); color: var(--hasc)}
+.bodyhalloween .notification-container .dropdown-content a:hover {background-color: var(--hmm)}
+.bodyhalloween #notifications-modal .plus-button {background: var(--hmm); border-color: var(--ham); box-shadow:none}
+.bodyhalloween #notifications-mode button {background: var(--hasc); border-color: var(--ham); color: var(--hms); box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)}
+.bodyhalloween #notifications-mode button.active, .bodyhalloween #notifications-mode button[data-mode]:hover {background: var(--hmm); color: var(--hasc)}
+.bodyhalloween #notifications-option-dropdown {box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3)!important}
+.bodyhalloween .tippy-box {background-color: var(--hasc) !important; border-color: var(--ham)}
+.bodyhalloween .tippy-box>.tippy-arrow:before {border-left-color: var(--ham) !important}
+.bodyhalloween .tippy-box>.tippy-arrow:before {border-bottom-color: transparent !important}
+
