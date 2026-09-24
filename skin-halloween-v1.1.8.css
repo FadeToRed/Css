@@ -389,9 +389,10 @@
 .bodyhalloween .fast.send .sunbar {color: var(--hms); text-shadow: none; background: var(--hac)!important}
 .bodyhalloween .fast.send .mainbg {border-color: var(--ham); background:var(--hms)}
 .bodyhalloween .fast.send .textinput {border-color: var(--ham); background:var(--hasc)}
-.bodyhalloween .send .list {background:var(--hmm)!important}
+.bodyhalloween .send .list {color: var(--hasc); background:var(--hmm)!important}
 .bodyhalloween .send .left {color: var(--hasc)}
 .bodyhalloween .send .textinput {border-color: var(--ham); background:var(--hasc); color:var(--hms)}
+.bodyhalloween a#poll {color: var(--hasc);}
 .bodyhalloween .sunbar {color: var(--hms); background: var(--hac)!important}
 .bodyhalloween .darkbar {color: var(--hms); background: var(--hac)!important}
 .bodyhalloween .sunbar a {color: var(--hms)}
