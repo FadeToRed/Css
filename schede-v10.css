@@ -263,5 +263,4 @@
 .slide-dati .img-dati {grid-column: 1; grid-row: 3; float: none; min-height: 0; overflow: hidden}
 .slide-dati .img-dati img {display: block; box-sizing: border-box; height: 100%}
 .slide-dati .div-dati {grid-column: 2; grid-row: 3; height: auto; min-height: 0; margin-left: 0}
-.slide-dati .img-dati img {display: block; height: calc(100% - 16px)}
-.slide-dati .div-dati {grid-column: 2; grid-row: 3; height: auto; min-height: 0; margin-left: 0}
+
