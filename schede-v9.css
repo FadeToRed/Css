@@ -257,9 +257,11 @@
 .scheda-hatsu .nen-img {width: 100%; height: 200px; object-fit:cover; border: 2px solid var(--bordo); display:block; margin: 8px 0; max-width: 675px}
 
 /* Slide Dati: la riga degli status può andare a capo, immagine e dati si accorciano */
-.slide-dati {display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto 1fr; height: 529px}
+.slide-dati {display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto 1fr; height: 513px}
 .slide-dati .dati-pg {grid-column: span 2; grid-row: 1}
-.slide-dati .dati-exp-row {grid-column: span 2; grid-row: 2}
+.slide-dati .dati-exp-row {grid-column: span 2; grid-row: 2; width: 100%}
 .slide-dati .img-dati {grid-column: 1; grid-row: 3; float: none; min-height: 0; overflow: hidden}
+.slide-dati .img-dati img {display: block; box-sizing: border-box; height: 100%}
+.slide-dati .div-dati {grid-column: 2; grid-row: 3; height: auto; min-height: 0; margin-left: 0}
 .slide-dati .img-dati img {display: block; height: calc(100% - 16px)}
 .slide-dati .div-dati {grid-column: 2; grid-row: 3; height: auto; min-height: 0; margin-left: 0}
