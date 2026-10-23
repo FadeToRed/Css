@@ -255,3 +255,10 @@
 .scheda-hatsu .div-poteri {width: 505px; height: 100%; margin: 5px; display: flex; flex-direction: column; gap: 6px}
 .scheda-hatsu .poteri-box {flex: 1; overflow: hidden; bord er: 4px solid var(--bordo); padding: 6px; font-size: 13px; line-height: 1.6em}
 .scheda-hatsu .nen-img {width: 100%; height: 200px; object-fit:cover; border: 2px solid var(--bordo); display:block; margin: 8px 0; max-width: 675px}
+
+/* Slide Dati: la riga degli status può andare a capo, immagine e dati si accorciano */
+.slide-dati {display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto minmax(0, 1fr); height: 529px}
+.slide-dati .dati-pg, .slide-dati .dati-exp-row {grid-column: 1 / -1}
+.slide-dati .img-dati {float: none; min-height: 0}
+.slide-dati .img-dati img {display: block; height: calc(100% - 16px)}
+.slide-dati .div-dati {height: auto; min-height: 0; margin-left: 0}
