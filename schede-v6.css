@@ -258,7 +258,9 @@
 
 /* Slide Dati: la riga degli status può andare a capo, immagine e dati si accorciano */
 .slide-dati {display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto minmax(0, 1fr); height: 529px}
-.slide-dati .dati-pg, .slide-dati .dati-exp-row {grid-column: 1 / -1}
-.slide-dati .img-dati {float: none; min-height: 0}
+.slide-dati > br {display: none}
+.slide-dati .dati-pg {grid-column: 1 / -1; grid-row: 1}
+.slide-dati .dati-exp-row {grid-column: 1 / -1; grid-row: 2}
+.slide-dati .img-dati {grid-column: 1; grid-row: 3; float: none; min-height: 0}
 .slide-dati .img-dati img {display: block; height: calc(100% - 16px)}
-.slide-dati .div-dati {height: auto; min-height: 0; margin-left: 0}
+.slide-dati .div-dati {grid-column: 2; grid-row: 3; height: auto; min-height: 0; margin-left: 0}
