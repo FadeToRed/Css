@@ -264,3 +264,8 @@
 .slide-dati .img-dati img {display: block; box-sizing: border-box; height: 100%}
 .slide-dati .div-dati {grid-column: 2; grid-row: 3; height: auto; min-height: 0; margin-left: 0}
 
+.portfolio-slide {padding: 8px; height: 325px; overflow: hidden}
+.portfolio-stat-card {position: relative; overflow: hidden; border-radius: 4px; padding: 14px 6px; background: linear-gradient(135deg, var(--sfondo) 0%, var(--sfondo2) 100%); border: 1px solid var(--bordo); border-left: 3px solid var(--titolo2); display: flex; flex-direction: column; align-items: center; gap: 1px}
+.portfolio-stat-vitale {position: relative; overflow: hidden; border-radius: 4px; padding: 16px 8px; background: linear-gradient(135deg, var(--sfondo2) 0%, var(--titolo1) 100%); border: 1px solid var(--titolo2); display: flex; justify-content: space-between; align-items: center}
+.portfolio-inv-slot {border: 2px solid var(--bordo); border-radius: 4px; padding: 2px; background: linear-gradient(135deg, var(--sfondo) 0%, var(--sfondo2) 100%); display: flex; flex-direction: column; align-items: center; gap: 3px; min-height: 94px; justify-content: center; position: relative; overflow: hidden}
+.portfolio-tecniche-box {border: 3px solid var(--bordo); padding: 5px 8px; font-size: 12px; color: var(--testo); line-height: 1.5em; height: 304px; overflow-y: scroll; margin-bottom: 5px; background: linear-gradient(135deg, var(--sfondo) 0%, var(--sfondo2) 100%)}
